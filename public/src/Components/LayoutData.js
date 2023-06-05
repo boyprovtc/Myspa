@@ -258,7 +258,7 @@ export const SidebarData = [
         subNav: [
             {
                 title: "Sản Phẩm Bán",
-                path: '/KH/SPBan'
+                path: '/QLSP/Container'
             },
             {
                 title: "Kho bán",
