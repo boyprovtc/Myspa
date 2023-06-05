@@ -5,8 +5,7 @@ import Home from './Pages/Home'
 import './App.css'
 import KH from './Pages/KH/KH'
 import { DH, LH, DSLH } from './Pages/DH/DH'
-
-import Container from './Pages/QLSP/Container'
+import SpBan from './Pages/QLSP/SpBan'
 
 
 
@@ -21,7 +20,7 @@ function App() {
         <Route path="/DH" exact Component={DH} />
         <Route path="/DH/LH" exact Component={LH} />
         <Route path="/DH/DSLH" exact Component={DSLH} />
-        <Route path="/QLSP/Container" exact Component={Container} />
+        <Route path="/QLSP/SpBan" exact Component={SpBan} />
       </Routes>
     </Router>
   )
