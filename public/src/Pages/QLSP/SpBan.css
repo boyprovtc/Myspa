@@ -1,39 +1,47 @@
-.SpBan{
+.spBan{
+    width: 1920px;
+    height: 1080px;
+    background: #F0F2F5;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.mainSpBan{
     padding: 20px;
     padding-top: 30px;
     background: rgb(255, 255, 255);
-    width: 1595px;
+    width: 1645px;
     height: auto;
     margin-top: 30px;
     margin-left: 30px;
     box-shadow:  0px 5px 5px #999999;
 }
 
-.topDSSP{
+.topSpBan{
     display: flex;
 }
 
-.titleDSSP{
+.titleSpBan{
     color: #9acc51;
     margin-top: 0px;
 }
 
-.btn-napDSSP{
+.btn-napSpBan{
     border: solid 0.5px;
     border-radius: 20px;
     color: #000;
     padding: 0 5px;
-    margin-left: 1130px;
+    margin-left: 1110px;
     text-decoration: none;
     display: flex;
     align-items: center;
-    width: 100px;
+    width: 120px;
     height: 25px;
     gap: 5px;
     font-size: 13px;
 }
 
-.btn-xuatDSSP{
+.btn-xuatSpBan{
     border: solid 0.5px;
     border-radius: 20px;
     color: #000;
@@ -42,21 +50,21 @@
     text-decoration: none;
     display: flex;
     align-items: center;
-    width: 100px;
+    width: 120px;
     height: 25px;
     gap: 5px;
     font-size: 13px;
 }
 
-.btn-napDSSP:hover{
+.btn-napSpBan:hover{
     background: #d8d7d7;
 }
 
-.btn-xuatDSSP:hover{
+.btn-xuatSpBan:hover{
     background: #d8d7d7;
 }
 
-.btn-themsp{
+.btn-themSpBan{
     background: #ABD373;
     border-radius: 20px;
     border: none;
@@ -66,26 +74,27 @@
     text-decoration: none;
     display: flex;
     align-items: center;
-    width: 150px;
+    width: 175px;
     height: 35px;
-    gap: 15px;  
+    gap: 5px;  
 }
 
-.btn-themsp:hover{
+.btn-themSpBan:hover{
     background-color: #9acc51;
     border-color: #9acc51;
 }
 
 .nhaptimkiem{
     padding: 8px 20px;
+    border: solid 0.5px;
     border-radius: 20px 0 0 20px;
     display: flex;
-    width: 175px;
-    height: 15px;
+    width: 240px;
+    height: 35px;
     margin: 10px;
 }
 
-.timkiemsp{
+.timkiemSpBan{
     color: #fff;
     border: none;
     border-radius: 0 20px 20px 0;
@@ -100,7 +109,7 @@
 
 }
 
-.timkiemsp:hover{
+.timkiemSpBan:hover{
     background-color: #9acc51;
     border-color: #9acc51;
 }
@@ -115,7 +124,7 @@
     text-decoration: none;
     display: flex;
     align-items: center;
-    width: 200px;
+    width: 250px;
     height: 35px;
     gap: 10px;
     margin-left: 750px;
@@ -126,6 +135,9 @@
     border-color: #6254b2;
 }
 
-.midDSSP{
+
+
+.topMidSpBan{
     display: flex;
 }
+
