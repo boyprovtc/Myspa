@@ -1,0 +1,6 @@
+.container{
+    padding-left: 50px;
+    padding-top: 50px;
+    width: calc(100% - 100px);
+    background: #F0F2F5;
+}
