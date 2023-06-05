@@ -1,6 +1,7 @@
 import React from 'react'
 import * as AiIcons from 'react-icons/ai'
 import "./SpBan.css"
+import MainSpBanData from './MainSpBanData'
 
 function MainSpBan() {
     return (
@@ -15,13 +16,19 @@ function MainSpBan() {
 
             <br />
             <div className='midSpBan'>
-                <a href='#' className='btn-themSpBan'><AiIcons.AiOutlinePlus />Thêm sản phẩm</a>
-                <input className="nhaptimkiem" type="text" placeholder="Mã SP, Barcode hoặc tên SP"></input>
-                <button type='submit' className='timkiemSpBan'>Tìm kiếm</button>
-                <a href='#' className='btn-themdmsp'><AiIcons.AiOutlinePlus />Thêm danh mục sản phẩm</a>
+                <div className='topMidSpBan'>
+                    <a href='#' className='btn-themSpBan'><AiIcons.AiOutlinePlus />Thêm sản phẩm</a>
+                    <input className="nhaptimkiem" type="text" placeholder="Mã SP, Barcode hoặc tên SP"></input>
+                    <button type='submit' className='timkiemSpBan'>Tìm kiếm</button>
+                    <a href='#' className='btn-themdmsp'><AiIcons.AiOutlinePlus />Thêm danh mục sản phẩm</a>
+                </div>
+
+                <div className='centerMidSpBan'>
+                    <MainSpBanData/>
+                </div>
+
             </div>
             <br />
-
             <hr />
         </div>
     )
