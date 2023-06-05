@@ -1,15 +1,13 @@
-import React from 'react'
-import Layout from './Components/Layout'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Home from './Pages/Home'
-import './App.css'
-import KH from './Pages/KH/KH'
-import { DH, LH, DSLH } from './Pages/DH/DH'
+import React from 'react';
+import Layout from './Components/Layout';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './Pages/Home';
+import './App.css';
 
-import Container from './Pages/QLSP/Container'
-
-
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { DH, LH, DSLH } from './Pages/DH/DH';
+import KH from './Pages/KH/KH';
+import Container from './Pages/QLSP/Container';
 
 function App() {
   return (
@@ -24,6 +22,6 @@ function App() {
         <Route path="/QLSP/Container" exact Component={Container} />
       </Routes>
     </Router>
-  )
+  );
 }
-export default App
+export default App;
