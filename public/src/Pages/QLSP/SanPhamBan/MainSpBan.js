@@ -7,7 +7,7 @@ function MainSpBan() {
   return (
     <div className="mainSpBan">
       <div className="topSpBan">
-        <h2 className="titleSpBan">Danh sách sản phẩm.</h2>
+        <h2 className="titleSpBan">Danh sách sản phẩm</h2>
         <a href="#" className="btn-napSpBan">
           <AiIcons.AiOutlineCloudUpload />
           Nạp danh sách
@@ -17,10 +17,7 @@ function MainSpBan() {
           Xuất danh sách
         </a>
       </div>
-      <br />
       <hr />
-
-      <br />
       <div className="midSpBan">
         <div className="topMidSpBan">
           <a href="#" className="btn-themSpBan">
@@ -40,13 +37,22 @@ function MainSpBan() {
             Thêm danh mục sản phẩm
           </a>
         </div>
-
+        <br />
         <div className="centerMidSpBan">
           <MainSpBanData />
         </div>
+
       </div>
       <br />
-      <hr />
+      <br />
+      <br />
+      <br />
+      <div className='bottomSpBan'>
+        <button className='trangDau'>Trang đầu</button>
+        <button className='troLai'>Trở lại</button>
+        <button className='keTiep'>Kế tiếp</button>
+        <button className='trangCuoi'>Trang cuối</button>
+      </div>
     </div>
   );
 }
