@@ -14,7 +14,7 @@ function KH() {
       <div className="MainContainer">
         <div className="row">
           <div className="col-md-8">
-            <h1 className="text-danger">Đăng ký khách hàng.</h1>
+            <h1 className="text-danger">Đăng ký khách hàng..</h1>
           </div>
           <div className="col-md-2">
             <button className="btn btn-outline-success rounded-pill">
