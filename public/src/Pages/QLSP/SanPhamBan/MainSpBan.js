@@ -6,8 +6,8 @@ import MainSpBanData from './MainSpBanData';
 function MainSpBan() {
   return (
     <div className="mainSpBan">
-      <div className="topSpBan">
-        <h2 className="titleSpBan">Danh sách sản phẩm</h2>
+      <div className="top">
+        <h2 className="title">Danh sách sản phẩm</h2>
         <a href="#" className="btn-napSpBan">
           <AiIcons.AiOutlineCloudUpload />
           Nạp danh sách
