@@ -6,7 +6,7 @@ function MainSpBanData() {
     {
       name: 'Mã SP.',
       selector: (row) => row.id,
-      sortable: true
+      sortable: true,
     },
     {
       name: 'Chi Nhánh',
