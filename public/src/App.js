@@ -8,7 +8,7 @@ import KH from './Pages/KH/KH';
 import { DH, LH, DSLH } from './Pages/DH/DH';
 import SpBan from './Pages/QLSP/SanPhamBan/SpBan';
 import SignIn from './Pages/KH/SignIn';
-import DMSP from './Pages/QLSP/DanhMucSP/DMSP';
+
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
         <Route path="/DH/LH" exact Component={LH} />
         <Route path="/DH/DSLH" exact Component={DSLH} />
         <Route path="/QLSP/SanPhamBan/SpBan" exact Component={SpBan} />
-        <Route path="/QLSP/DanhMucSP/DMSP" exact Component={DMSP} />
+        
       </Routes>
     </Router>
   );
