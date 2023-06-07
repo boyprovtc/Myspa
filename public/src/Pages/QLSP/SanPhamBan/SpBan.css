@@ -10,7 +10,7 @@
     padding: 20px;
     padding-top: 30px;
     background: rgb(255, 255, 255);
-    width: 1645px;
+    width: 1740px;
     height: auto;
     margin-top: 30px;
     margin-left: 30px;
@@ -35,7 +35,7 @@
     text-decoration: none;
     display: flex;
     align-items: center;
-    width: 120px;
+    width: 125px;
     height: 25px;
     gap: 5px;
     font-size: 13px;
@@ -50,7 +50,7 @@
     text-decoration: none;
     display: flex;
     align-items: center;
-    width: 120px;
+    width: 125px;
     height: 25px;
     gap: 5px;
     font-size: 13px;
@@ -58,10 +58,12 @@
 
 .btn-napSpBan:hover{
     background: #d8d7d7;
+    color: #000;
 }
 
 .btn-xuatSpBan:hover{
     background: #d8d7d7;
+    color: #000;
 }
 
 .btn-themSpBan{
@@ -82,6 +84,7 @@
 .btn-themSpBan:hover{
     background-color: #9acc51;
     border-color: #9acc51;
+    color: #fff;
 }
 
 .nhaptimkiem{
@@ -89,7 +92,7 @@
     border: solid 0.5px;
     border-radius: 20px 0 0 20px;
     display: flex;
-    width: 240px;
+    width: 250px;
     height: 35px;
     margin: 10px;
 }
@@ -100,18 +103,19 @@
     border-radius: 0 20px 20px 0;
     background: #ABD373;
     display: flex;
-    width: 85px;
+    width: 100px;
     height: 35px;
     margin: 10px;
-    padding: 10px 15px;
+    padding: 6px 15px;
     margin-left: -10px;
     text-decoration: none;
-
+    
 }
 
 .timkiemSpBan:hover{
     background-color: #9acc51;
     border-color: #9acc51;
+    
 }
 
 .btn-themdmsp{
@@ -127,17 +131,75 @@
     width: 250px;
     height: 35px;
     gap: 10px;
-    margin-left: 750px;
+    margin-left: 830px;
 }
 
 .btn-themdmsp:hover{
     background-color: #6254b2;
     border-color: #6254b2;
+    color: #fff;
 }
-
-
 
 .topMidSpBan{
     display: flex;
+}
+
+.bottomSpBan{
+    display: flex;
+    float: right;
+    margin: -50px 15px;
+    font-size: 15px;
+}
+
+.trangDau{
+    margin-right: 5px;
+    border-radius: 15px;
+    background: #fff;
+    border: none;
+    width: 90px;
+    height: 30px;
+}
+
+.trangDau:hover{
+    background: #d8d7d7;
+}
+
+.troLai{
+    margin-right: 5px;
+    border-radius: 15px;
+    background: #fff;
+    border: none;
+    width: 80px;
+    height: 30px;
+}
+
+.troLai:hover{
+    background: #d8d7d7;
+}
+
+.keTiep{
+    margin-right: 5px;
+    border-radius: 15px;
+    background: #fff;
+    border: none;
+    width: 80px;
+    height: 30px;
+}
+
+.keTiep:hover{
+    background: #d8d7d7;
+}
+
+.trangCuoi{
+    margin-right: 5px;
+    border-radius: 15px;
+    background: #fff;
+    border: none;
+    width: 90px;
+    height: 30px;
+}
+
+.trangCuoi:hover{
+    background: #d8d7d7;
 }
 
