@@ -1,8 +1,14 @@
 import React from 'react';
 import './KH.css';
 import ListView from './ListView';
+import { useNavigate } from 'react-router-dom';
 
 function KH() {
+  const navigate = useNavigate();
+  const btnThemKH = () => {
+    navigate('/themKH');
+  };
+
   return (
     <div className="container ">
       <div className="MainContainer">
@@ -23,7 +29,7 @@ function KH() {
         </div>
         <div className="grid">
           <div className="item item1">
-            <button className="btn btn-primary">
+            <button onClick={btnThemKH} className="btn btn-primary">
               <i class="bi bi-plus-lg"></i> Đăng kí khách hàng
             </button>
           </div>
