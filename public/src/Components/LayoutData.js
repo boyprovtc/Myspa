@@ -262,7 +262,7 @@ export const SidebarData = [
             },
             {
                 title: "Kho bán",
-                path: '/KH/KhoBan'
+                path: '/QLSP/KhoBan/khoban'
             },
             {
                 title: "Danh mục sản phẩm",
