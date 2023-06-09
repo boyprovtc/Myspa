@@ -26,7 +26,7 @@ function App() {
         <Route path="/QLSP/SanPhamBan/SpBan" exact Component={SpBan} />
         <Route path="/QLSP/DanhMucSP/DMSP" exact Component={DMSP} />
         <Route path="/QLSP/KhoBan/khoban" exact Component={khoban} />
-        <Route path="/QLSP/KhoBan/khoban" exact Component={khoban} />
+        
       </Routes>
     </Router>
   );
