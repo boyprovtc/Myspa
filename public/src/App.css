@@ -1,8 +1,13 @@
 @import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css');
 * {
+<<<<<<< HEAD
+  box-sizing: border-box;
+  font-family: 'Osward', sans-serif;
+=======
 
     box-sizing: border-box;
     font-family: 'Osward', sans-serif;
+>>>>>>> 56365bd45d560e0e3cf869884c1e121699a6a0b6
 }
 
 .section {
