@@ -10,6 +10,8 @@ import SpBan from './Pages/QLSP/SanPhamBan/SpBan';
 import DMSP from './Pages/QLSP/DanhMucSP/DMSP';
 import khoban from './Pages/QLSP/KhoBan/khoban';
 import SignIn from './Pages/KH/SignIn';
+import nhanhieu from './Pages/QLSP/NhanHieu/nhanhieu';
+import donvi from './Pages/QLSP/DonVi/donvi';
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
         <Route path="/QLSP/SanPhamBan/SpBan" exact Component={SpBan} />
         <Route path="/QLSP/DanhMucSP/DMSP" exact Component={DMSP} />
         <Route path="/QLSP/KhoBan/khoban" exact Component={khoban} />
+        <Route path="/QLSP/NhanHieu/nhanhieu" exact Component={nhanhieu} />
+        <Route path="/QLSP/DonVi/donvi" exact Component={donvi} />
       </Routes>
     </Router>
   );
