@@ -1,9 +1,9 @@
 import React from 'react'
 
-import * as FaIcons from 'react-icons/fa'
+//import * as FaIcons from 'react-icons/fa'
 import * as AiIcons from 'react-icons/ai'
-import * as IoIcons from 'react-icons/io'
-import * as RiIcons from 'react-icons/ri'
+//import * as IoIcons from 'react-icons/io'
+//import * as RiIcons from 'react-icons/ri'
 import * as FiIcons from 'react-icons/fi'
 
 export const SidebarData = [
@@ -21,7 +21,7 @@ export const SidebarData = [
         subNav: [
             {
                 title: "Khách hàng",
-                path: '/KH'
+                path: '/KH/KhachHang'
             }
         ]
     },

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom';
 import * as FaIcons from 'react-icons/fa'
@@ -68,6 +68,7 @@ height: 100vh;
 justify-content: center;
 position: fixed;
 top:50px;
+padding-left:0px
 `
 const SidebarWarp = styled.nav`
 width:100%;
@@ -78,8 +79,12 @@ width:100%;
 
 
 const Layout = () => {
-    const [sidebar, setSidebar] = useState(false)
-    const showSidebar = () => setSidebar(!sidebar)
+    const [sidebar, setSidebar] = useState(true)
+
+    const showSidebar = () => {
+        setSidebar(!sidebar)
+    }
+
 
 
     return (
@@ -100,30 +105,26 @@ const Layout = () => {
                     <AiIcons.AiOutlineBell />
                 </div>
             </Nav>
-            <SidebarNav2 sidebar={sidebar} onClick={showSidebar}>
-                <SidebarWarp2>
-                    {SidebarData.map((item, index) => {
-                        return <MenuIcon item={item} key={index} />;
-                    })}
-                </SidebarWarp2>
-            </SidebarNav2>
+            <div className={`SideMenu ${!sidebar ? 'SideMenu-Active' : ''}`}>
+                <SidebarNav2 sidebar={sidebar} onClick={showSidebar}>
+                    <SidebarWarp2>
+                        {SidebarData.map((item, index) => {
+                            return <MenuIcon item={item} key={index} />;
+                        })}
+                    </SidebarWarp2>
+                </SidebarNav2>
+                <SidebarNav sidebar={sidebar}>
+                    <SidebarWarp>
+                        <NavIcon2 to='#'>
+                            <FaIcons.FaRegCaretSquareLeft onClick={showSidebar} />
+                        </NavIcon2>
+                        {SidebarData.map((item, index) => {
+                            return <Submenu item={item} key={index} />;
+                        })}
+                    </SidebarWarp>
+                </SidebarNav>
+            </div>
 
-
-
-
-            <SidebarNav sidebar={sidebar}>
-
-                <SidebarWarp>
-                    <NavIcon2 to='#'>
-                        <FaIcons.FaRegCaretSquareLeft onClick={showSidebar} />
-                    </NavIcon2>
-                    {SidebarData.map((item, index) => {
-                        return <Submenu item={item} key={index} />;
-
-                    })}
-                </SidebarWarp>
-
-            </SidebarNav>
         </>
     )
 }
