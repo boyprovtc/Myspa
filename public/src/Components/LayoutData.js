@@ -258,7 +258,7 @@ export const SidebarData = [
         subNav: [
             {
                 title: "Sản Phẩm Bán",
-                path: '/KH/SPBan'
+                path: '/QLSP/SanPhamBan/SpBan'
             },
             {
                 title: "Kho bán",
@@ -266,7 +266,7 @@ export const SidebarData = [
             },
             {
                 title: "Danh mục sản phẩm",
-                path: '/KH/DMSP'
+                path: '/QLSP/DanhMucSP/DMSP'
             },
             {
                 title: "Nhãn hiệu SP",
