@@ -10,7 +10,7 @@ import { DH, LH, DSLH } from './Pages/DH/DH';
 import SpBan from './Pages/QLSP/SanPhamBan/SpBan';
 import DMSP from './Pages/QLSP/DanhMucSP/DMSP';
 import khoban from './Pages/QLSP/KhoBan/khoban';
-import SignIn from './Pages/KH/SignIn';
+import Register from './Pages/KH/Register';
 import nhanhieu from './Pages/QLSP/NhanHieu/nhanhieu';
 import donvi from './Pages/QLSP/DonVi/donvi';
 
