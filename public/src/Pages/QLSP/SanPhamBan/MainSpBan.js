@@ -7,7 +7,7 @@ function MainSpBan() {
   return (
     <div className="mainSpBan">
       <div className="topSpBan">
-        <h2 className="titleSpBan">Danh sách sản phẩm.</h2>
+        <h2 className="titleSpBan">Danh sách sản phẩm</h2>
         <a href="#" className="btn-napSpBan">
           <AiIcons.AiOutlineCloudUpload />
           Nạp danh sách
@@ -35,7 +35,7 @@ function MainSpBan() {
           <button type="submit" className="timkiemSpBan">
             Tìm kiếm
           </button>
-          <a href="#" className="btn-themdmsp">
+          <a href="../DanhMucSP/themDMSP" className="btn-themdmsp">
             <AiIcons.AiOutlinePlus />
             Thêm danh mục sản phẩm
           </a>

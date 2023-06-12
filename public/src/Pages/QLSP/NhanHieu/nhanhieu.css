@@ -27,7 +27,7 @@
     font-weight: 700;
 }
 
-.themNhanHieu{
+.themNH{
     background: #ABD373;
     border-radius: 20px;
     border: none;
@@ -43,7 +43,7 @@
 
 }
 
-.themNhanHieu:hover {
+.themNH:hover {
     background-color: #9acc51;
     border-color: #9acc51;
     color: #fff;
