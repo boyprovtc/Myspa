@@ -1,0 +1,102 @@
+.themNhanHieu{
+    width: 1920px;
+    height: 1080px;
+    background: #F0F2F5;
+    padding-top: 50px;
+    padding-left: 200px;
+}
+
+.contaiNer{
+    padding: 20px;
+    padding-top: 30px;
+    background: rgb(255, 255, 255);
+    width: 95%;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 30px;
+    box-shadow: 0px 5px 5px #999999;
+}
+
+.midthemNhanHieu{
+    margin-left: 350px;
+}
+
+p{
+    font-size: 18px;
+}
+
+.top{
+    display: flex;
+}
+
+.title {
+    color: #9acc51;
+    margin-top: 0px;
+    font-weight: 700;
+}
+
+.nhapTenNhanHieu{
+    padding: 8px 20px;
+    border: solid 0.5px;
+    border-radius: 20px;
+    display: flex;
+    width: 900px;
+    height: 45px;
+    margin-bottom: 25px;
+}
+
+.nhapUTNH{
+    padding: 8px 20px;
+    border: solid 0.5px;
+    border-radius: 20px;
+    display: flex;
+    width: 240px;
+    height: 45px;
+    margin-bottom: 25px;
+}
+
+.bottom{
+    margin-left: 350px;
+    display: flex;
+}
+
+.btn-trolaiNH{
+    margin-right: 20px;
+    border-radius: 20px;
+    width: 90px;
+    height: 40px;
+    background: #fff;
+    margin-left: 370px;
+}
+
+.btn-khoiphucNH{
+    margin-right: 20px;
+    border-radius: 20px;
+    width: 110px;
+    height: 40px;
+    background: #fff;
+}
+
+.btn-luuNH{
+    margin-right: 20px;
+    border-radius: 20px;
+    width: 70px;
+    height: 40px;
+    background: #ABD373;
+    color: #fff;
+}
+
+.btn-trolaiNH:hover {
+    background: #d8d7d7;
+}
+
+.btn-khoiphucNH:hover {
+    background: #d8d7d7;
+}
+
+.btn-luuNH:hover {
+    background-color: #9acc51;
+    
+}
+
+

@@ -3,6 +3,7 @@ import * as AiIcons from 'react-icons/ai';
 import "./DMSP.css"
 import ListDmSP from './ListDmSp';
 
+
 function DMSP() {
     return (
         <div className='dmSP'>
@@ -13,7 +14,7 @@ function DMSP() {
                 <hr />
                 
                 <div className='mid'>
-                    <a href="#" className="themdmsp"><AiIcons.AiOutlinePlus />Thêm danh mục sản phẩm</a>
+                    <a href="themDMSP" className="themdmsp"><AiIcons.AiOutlinePlus />Thêm danh mục sản phẩm</a>
                     <br />
                     <hr />
                     <ListDmSP/>
@@ -21,6 +22,7 @@ function DMSP() {
             </div>
         </div>
     )
+    
 }
 
 export default DMSP
