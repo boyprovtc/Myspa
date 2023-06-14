@@ -1,0 +1,166 @@
+/*_______________________________MainContainer__________________________*/
+
+/*________________HeadContainer_________________*/
+text {
+    color: black;
+    margin-right: 85%;
+    font-size: 23px;
+    padding-left: 20px;
+}
+
+/*________________End_HeadContainer_____________*/
+/*________________BodyContainer_________________*/
+/*__________FirstSection_____________*/
+.fst_label1 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.fst_label2 {
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.ProgressArea {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px 20px;
+
+}
+
+.progresscircle {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    padding-top: 5px;
+}
+
+.skilled {
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
+
+.outer {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    padding: 9px;
+}
+
+.inner {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 0.5px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.number {
+    font-weight: bold;
+    font-size: 22px;
+    color: #555;
+}
+
+circle {
+    fill: none;
+    stroke: rgb(182, 182, 182);
+    stroke-width: 10px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 0;
+
+}
+
+.circleprogress {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.progresscircle {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/*__________End_FirstSection_________*/
+/*__________SecondSection_____________*/
+.Scd_FirstState {
+    background-color: #ABD373;
+    width: 70%;
+    text-align: center;
+    padding: 10px;
+}
+
+.Scd_SecondState {
+    background-color: #7266BA;
+    width: 30%;
+}
+
+.scd_label {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+.income_item {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+.scd_progressBar {
+    width: 210px;
+    height: 10px;
+    margin-left: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+/*__________End_SecondSection_________*/
+/*__________ThirdSection_____________*/
+.SingleState {
+    padding: 10px;
+    background-color: #fff;
+    height: 100%;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: -5px 5px 5px gray;
+    margin-right: 30px;
+}
+
+.dataNumber {
+    margin-top: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+
+
+/*__________End_ThirdSection_________*/
+/*__________FifthSection_____________*/
+
+table, th, td, tr {
+    margin-top: 150px;
+    margin-left: 30px;
+    border: 2px solid black;
+}
+
+
+/*__________End_FifthSection_____________*/
+/*________________End_BodyContainer____________*/
+/*_______________________________End_MainContainer______________________*/

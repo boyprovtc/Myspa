@@ -22,7 +22,7 @@ input {
 }
 
 .ThemKH {
-    margin-left: 1200px;
+    margin-left: 1180px;
     width: 60px;
     font-size: 10px;
     height: 25px;
@@ -43,14 +43,13 @@ input {
     width: 80px;
     background-color: #ABD373;
     color: #fff;
-    margin-right: 40px;
-
+    margin-right: 20px;
 }
 
 .userArea {
     display: flex;
     align-items: center;
-    margin-left: 100px;
+    margin-left: 140px;
     background-color: #ABD373;
     color: #fff;
     height: 100%;
