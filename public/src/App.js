@@ -6,12 +6,11 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import KH from './Pages/KH/KH';
 import { DH, LH, DSLH } from './Pages/DH/DH';
-
+import Register from './Pages/KH/Register';
 import SpBan from './Pages/QLSP/SanPhamBan/SpBan';
 import DMSP from './Pages/QLSP/DanhMucSP/DMSP';
 import khoban from './Pages/QLSP/KhoBan/khoban';
-import SignIn from './Pages/KH/SignIn';
-
+import 'react-big-calendar/lib/css/react-big-calendar.css';
 
 function App() {
   return (
