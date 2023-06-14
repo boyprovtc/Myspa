@@ -16,6 +16,7 @@
     "bootstrap-icons": "^1.10.5",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.4",
+    "react-circular-progressbar": "^2.1.0",
     "react-custom-scrollbar": "^1.0.0",
     "react-data-table-component": "^7.5.3",
     "react-dom": "^18.2.0",
