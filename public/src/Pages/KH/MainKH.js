@@ -1,6 +1,7 @@
 import React from 'react';
 import ListView from './ListView';
 import { useNavigate } from 'react-router-dom';
+import { Button } from 'react-bootstrap';
 import './KH.css';
 
 function MainKH() {
@@ -138,9 +139,10 @@ function MainKH() {
         <div className="list__view">
           <ListView />
         </div>
-        <div className="button">
-          <button className="btn btn-primary">Gửi SMS</button>
-        </div>
+
+        <Button className="rounded-pill" variant="primary">
+          Gửi SMS
+        </Button>
       </div>
     </div>
   );

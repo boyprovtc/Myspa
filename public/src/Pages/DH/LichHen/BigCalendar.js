@@ -10,7 +10,6 @@ const events = [
     start: new Date(),
     end: new Date(),
   },
-  // Thêm các sự kiện khác vào đây...
 ];
 
 const BigCalendar = (props) => (

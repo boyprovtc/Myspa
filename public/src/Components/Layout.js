@@ -12,7 +12,7 @@ import Avatar from "../asset/avatar.jpg";
 
 const Nav = styled.nav`
 top:0;
-left:0;
+left:200px;
 position: fixed;
 width: 100%;
 background: black;
@@ -31,8 +31,8 @@ width: 200px;
 display: flex;
 height: 100%;
 justify-content: center;
-position: fixed;
-padding-top:50px;
+position: fixed; 
+padding-top:1px;
 `
 
 const SidebarWarp = styled.nav`
@@ -41,12 +41,14 @@ width:100%;
 const Layout = () => {
     const [sidebar, setSidebar] = useState(true)
 
+
     return (
         <>
             <Nav>
                 <a href="#"><button className='ThemKH' >Them KH</button></a>
                 <a href='#'><button className='TaoDonHang'>Tao don hang</button></a>
-                <input type="text" placeholder="Search.."></input>
+                <input className='input' type='text' placeholder='Search...' />
+
                 <button className='SearchButton'><AiIcons.AiOutlineSearch /></button>
                 <div className='userArea'>
                     Hello User!

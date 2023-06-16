@@ -1,6 +1,7 @@
 import React from 'react'
 //import * as FaIcons from 'react-icons/fa'
 import * as AiIcons from 'react-icons/ai'
+import * as GiIcons from 'react-icons/gi'
 import styled from 'styled-components'
 import '../css/Home.css'
 import { CircularProgressbar } from 'react-circular-progressbar';
@@ -23,7 +24,7 @@ const HeadContainer = styled.div`
 width: 95%;
 height: 50px;
 background-color: #fff;
-margin: 30px;
+margin: 20px;
 border-radius: 10px;
 box-shadow: -5px 5px 5px gray;
 font-size: 30px;
@@ -36,13 +37,13 @@ flex-wrap: wrap;
 width: 95%;
 height: 100%;
 background-color: #E7E7E7;
-margin-left: 30px;
-margin-right: 30px;
+margin-left: 20px;
+margin-right: 20px;
 
 `
 const FisrtSection = styled.div`
 width:  400px;
-height: 400px;
+height: 500px;
 background-color: #fff;
 border-radius: 10px;
 margin-right:30px;
@@ -52,7 +53,7 @@ text-align: center;
 `
 const SecondSection = styled.div`
 width:  66.73%;
-height: 400px;
+height: 500px;
 margin-bottom: 30px;
 background-color: #fff;
 border-radius: 10px;
@@ -61,14 +62,14 @@ display:flex;
 `
 const ThirdSection = styled.div`
 width:  100%;
-height: 400px;
+height: 500px;
 background-color: #E7E7E7;
 margin-bottom: 30px;
 display: flex;
 `
 const FourthSection = styled.div`
 width:  400px;
-height: 400px;
+height: 500px;
 background-color: #fff;
 border-radius: 10px;
 margin-right:30px;
@@ -82,7 +83,7 @@ color: #7e7e7e;
 `
 const FifthSection = styled.div`
 width:  66.73%;
-height: 400px;
+height: 500px;
 margin-bottom: 30px;
 background-color: #fff;
 border-radius: 10px;
@@ -90,7 +91,7 @@ box-shadow: -5px 5px 5px gray;
 `
 const SixthSection = styled.div`
 width:  400px;
-height: 400px;
+height: 500px;
 background-color: #fff;
 border-radius: 10px;
 margin-right:30px;
@@ -105,7 +106,7 @@ color: #7e7e7e;
 `
 const SeventhSection = styled.div`
 width:  66.73%;
-height: 400px;
+height: 500px;
 margin-bottom: 30px;
 background-color: #fff;
 border-radius: 10px;
@@ -113,19 +114,28 @@ box-shadow: -5px 5px 5px gray;
 `
 
 const RightContainer = styled.div`
-width: 20%;
+width: 25%;
 background-color: #E7E7E7;
 
 `
 const ShopAdv = styled.div`
-width: 83%;
+width: 90%;
 height: 600px;
-margin: 30px;
+margin-top: 20px;
+margin-left: 10px;
 border-radius: 20px;
 box-shadow: -5px 5px 5px gray;
 background-color: #AC3BBE;
 `
-
+const Activities = styled.div`
+width: 90%;
+height: 600px;
+margin-top: 20px;
+margin-left: 10px;
+border-radius: 20px;
+box-shadow: -5px 5px 5px gray;
+background-color: #fff;
+`
 
 function Home() {
 
@@ -137,6 +147,7 @@ function Home() {
         <>
             <div>
                 <div className='home'>
+
                     <Container>
                         <MainContainer>
                             <HeadContainer>
@@ -365,7 +376,7 @@ function Home() {
                                         <div style={{ fontSize: 28, fontWeight: 'bold', margin: '20px 150px 20px 110px' }}>0<br /><div style={{ fontSize: 10 }}>Tháng này</div></div>
                                         <div style={{ fontSize: 28, fontWeight: 'bold', margin: '20px 150px 20px 110px' }}>0<br /><div style={{ fontSize: 10 }}>Hôm nay</div></div>
                                     </div>
-                                    <div style={{ display: 'flex', textAlign: 'right', alignItems: 'center', marginTop: 10, marginLeft: 90 }}>
+                                    <div style={{ display: 'flex', textAlign: 'right', alignItems: 'center', marginTop: 50, marginLeft: 10 }}>
                                         <table style={{ height: 190, fontSize: 11 }}>
                                             <tr><th style={{ border: 'none' }}>1</th></tr>
                                             <tr><th style={{ border: 'none' }}>0.5</th></tr>
@@ -418,20 +429,20 @@ function Home() {
                                             </tr>
                                         </table>
                                     </div>
-                                    <table style={{ textAlign: 'left', marginLeft: 150 }}>
+                                    <table style={{ textAlign: 'left', marginLeft: 70 }}>
                                         <tr>
-                                            <th style={{ border: 'none', fontSize: 8 }}>Một</th>
-                                            <th style={{ border: 'none', fontSize: 8 }}>Hai</th>
-                                            <th style={{ border: 'none', fontSize: 8 }}>Ba</th>
-                                            <th style={{ border: 'none', fontSize: 8 }}>Bốn</th>
-                                            <th style={{ border: 'none', fontSize: 8 }}>Năm</th>
-                                            <th style={{ border: 'none', fontSize: 8 }}>Sáu</th>
-                                            <th style={{ border: 'none', fontSize: 8 }}>Bảy</th>
-                                            <th style={{ border: 'none', fontSize: 8 }}>Tám</th>
-                                            <th style={{ border: 'none', fontSize: 8 }}>Chín</th>
-                                            <th style={{ border: 'none', fontSize: 8 }}>Mười</th>
-                                            <th style={{ border: 'none', fontSize: 8 }}>Mười một</th>
-                                            <th style={{ border: 'none', fontSize: 8 }}>Mười hai</th>
+                                            <th style={{ border: 'none', fontSize: 10 }}>Một</th>
+                                            <th style={{ border: 'none', fontSize: 10 }}>Hai</th>
+                                            <th style={{ border: 'none', fontSize: 10 }}>Ba</th>
+                                            <th style={{ border: 'none', fontSize: 10 }}>Bốn</th>
+                                            <th style={{ border: 'none', fontSize: 10 }}>Năm</th>
+                                            <th style={{ border: 'none', fontSize: 10 }}>Sáu</th>
+                                            <th style={{ border: 'none', fontSize: 10 }}>Bảy</th>
+                                            <th style={{ border: 'none', fontSize: 10 }}>Tám</th>
+                                            <th style={{ border: 'none', fontSize: 10 }}>Chín</th>
+                                            <th style={{ border: 'none', fontSize: 10 }}>Mười</th>
+                                            <th style={{ border: 'none', fontSize: 10 }}>Mười một</th>
+                                            <th style={{ border: 'none', fontSize: 10 }}>Mười hai</th>
                                         </tr>
                                     </table>
                                 </FifthSection>
@@ -447,7 +458,7 @@ function Home() {
                                         <div style={{ fontSize: 28, fontWeight: 'bold', margin: '20px 150px 20px 110px' }}><br /><div style={{ fontSize: 10 }}></div></div>
                                         <div style={{ fontSize: 28, fontWeight: 'bold', margin: '20px 150px 20px 110px' }}><br /><div style={{ fontSize: 10 }}></div></div>
                                     </div>
-                                    <div style={{ display: 'flex', textAlign: 'right', alignItems: 'center', marginTop: 10, marginLeft: 90 }}>
+                                    <div style={{ display: 'flex', textAlign: 'right', alignItems: 'center', marginTop: 50, marginLeft: 10 }}>
                                         <table style={{ height: 190, fontSize: 11 }}>
                                             <tr><th style={{ border: 'none' }}>1</th></tr>
                                             <tr><th style={{ border: 'none' }}>0.5</th></tr>
@@ -500,20 +511,20 @@ function Home() {
                                             </tr>
                                         </table>
                                     </div>
-                                    <table style={{ textAlign: 'left', marginLeft: 150 }}>
+                                    <table style={{ textAlign: 'left', marginLeft: 70 }}>
                                         <tr>
-                                            <th style={{ border: 'none', fontSize: 8 }}>Một</th>
-                                            <th style={{ border: 'none', fontSize: 8 }}>Hai</th>
-                                            <th style={{ border: 'none', fontSize: 8 }}>Ba</th>
-                                            <th style={{ border: 'none', fontSize: 8 }}>Bốn</th>
-                                            <th style={{ border: 'none', fontSize: 8 }}>Năm</th>
-                                            <th style={{ border: 'none', fontSize: 8 }}>Sáu</th>
-                                            <th style={{ border: 'none', fontSize: 8 }}>Bảy</th>
-                                            <th style={{ border: 'none', fontSize: 8 }}>Tám</th>
-                                            <th style={{ border: 'none', fontSize: 8 }}>Chín</th>
-                                            <th style={{ border: 'none', fontSize: 8 }}>Mười</th>
-                                            <th style={{ border: 'none', fontSize: 8 }}>Mười một</th>
-                                            <th style={{ border: 'none', fontSize: 8 }}>Mười hai</th>
+                                            <th style={{ border: 'none', fontSize: 10 }}>Một</th>
+                                            <th style={{ border: 'none', fontSize: 10 }}>Hai</th>
+                                            <th style={{ border: 'none', fontSize: 10 }}>Ba</th>
+                                            <th style={{ border: 'none', fontSize: 10 }}>Bốn</th>
+                                            <th style={{ border: 'none', fontSize: 10 }}>Năm</th>
+                                            <th style={{ border: 'none', fontSize: 10 }}>Sáu</th>
+                                            <th style={{ border: 'none', fontSize: 10 }}>Bảy</th>
+                                            <th style={{ border: 'none', fontSize: 10 }}>Tám</th>
+                                            <th style={{ border: 'none', fontSize: 10 }}>Chín</th>
+                                            <th style={{ border: 'none', fontSize: 10 }}>Mười</th>
+                                            <th style={{ border: 'none', fontSize: 10 }}>Mười một</th>
+                                            <th style={{ border: 'none', fontSize: 10 }}>Mười hai</th>
                                         </tr>
                                     </table>
                                 </SeventhSection>
@@ -568,10 +579,52 @@ function Home() {
 
 
                             </ShopAdv>
+
+                            <Activities>
+
+                                <AiIcons.AiOutlineSwap style={{ margin: '40px 40px -10px 25px', fontSize: 35 }} />
+                                <AiIcons.AiOutlineStar style={{ margin: '40px 40px -10px 25px', fontSize: 35 }} />
+
+
+                                <div className='hrline' style={{ display: 'flex', alignItems: 'center' }}> <hr style={{ width: '30%', border: '3px solid cyan', opacity: 1 }} /><hr style={{ width: '70%' }} /></div>
+                                <table className='Act_Table' style={{ border: 'none', margin: 20 }}>
+                                    <tr>
+                                        <td className='act_Element' style={{ width: 300, borderLeft: '2px solid #ABD373', opacity: 1, borderTop: 'none', borderBottom: 'none', borderRight: 'none', padding: 10 }}>
+                                            <label className='act_label1' style={{ display: 'flex', alignItems: 'center', gap: 5, marginLeft: '-20px', fontWeight: 'lighter' }}>
+                                                <GiIcons.GiPlainCircle style={{ color: 'gray', fontSize: 18, border: '2px solid #ABD373', borderRadius: 10 }} />
+                                                2 giây trước
+                                            </label>
+                                            <label className='act_label2' style={{ marginLeft: 3.5, fontSize: 18, fontWeight: 'bolder' }}>Nguyễn Xuân Thành</label>
+                                            <label className='act_label3' style={{ marginLeft: 3.5, fontSize: 16, fontWeight: 'bold' }}>Đăng nhập</label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td className='act_Element' style={{ width: 300, borderLeft: '2px solid #ABD373', opacity: 1, borderTop: 'none', borderBottom: 'none', borderRight: 'none', padding: 10 }}>
+                                            <label className='act_label1' style={{ display: 'flex', alignItems: 'center', gap: 5, marginLeft: '-20px', fontWeight: 'lighter' }}>
+                                                <GiIcons.GiPlainCircle style={{ color: 'gray', fontSize: 18, border: '2px solid #ABD373', borderRadius: 10 }} />
+                                                2 phút trước
+                                            </label>
+                                            <label className='act_label2' style={{ marginLeft: 3.5, fontSize: 18, fontWeight: 'bolder' }}>Nguyễn Xuân Thành</label>
+                                            <label className='act_label3' style={{ marginLeft: 3.5, fontSize: 16, fontWeight: 'bold' }}>Đăng nhập</label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td className='act_Element' style={{ width: 300, borderLeft: '2px solid #ABD373', opacity: 1, borderTop: 'none', borderBottom: 'none', borderRight: 'none', padding: 10 }}>
+                                            <label className='act_label1' style={{ display: 'flex', alignItems: 'center', gap: 5, marginLeft: '-20px', fontWeight: 'lighter' }}>
+                                                <GiIcons.GiPlainCircle style={{ color: 'gray', fontSize: 18, border: '2px solid #ABD373', borderRadius: 10 }} />
+                                                2 giờ trước
+                                            </label>
+                                            <label className='act_label2' style={{ marginLeft: 3.5, fontSize: 18, fontWeight: 'bolder' }}>Nguyễn Xuân Thành</label>
+                                            <label className='act_label3' style={{ marginLeft: 3.5, fontSize: 16, fontWeight: 'bold' }}>Đăng nhập</label>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </Activities>
+
                         </RightContainer>
                     </Container>
 
-                </div>
+                </div >
             </div >
         </>
 

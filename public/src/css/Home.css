@@ -165,13 +165,13 @@ circle {
 
 .ChartElement {
     border: 1px solid black;
-    width: 60px;
+    width: 80px;
     opacity: .8;
 }
 
 th, td {
     border: 1px solid black;
-    width: 60px;
+    width: 70px;
     opacity: .8;
 }
 

@@ -1,29 +1,6 @@
-input {
-    margin-left: 30px;
-    height: 30px;
-    width: 250px;
-    border-radius: 15px 0 0 15px;
-    border: none;
-    text-align: start;
-    font-size: 15px;
-    display: flex;
-    padding: 10px;
-}
-
-.SearchButton {
-    display: flex;
-    align-items: center;
-    padding-left: 10px;
-    font-size: 20px;
-    height: 30px;
-    width: 40px;
-    border: none;
-    border-radius: 0 15px 15px 0;
-}
-
 .ThemKH {
-    margin-left: 1180px;
-    width: 60px;
+    margin-left: 1000px;
+    width: 80px;
     font-size: 10px;
     height: 25px;
     border-radius: 15px 0 0 15px;
@@ -43,13 +20,49 @@ input {
     width: 80px;
     background-color: #ABD373;
     color: #fff;
-    margin-right: 20px;
+
 }
+
+
+
+
+.input {
+    margin-left: 30px;
+    height: 30px;
+    width: 220px;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px 0 0 15px;
+    text-align: left;
+    padding-left: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+
+
+
+
+.SearchButton {
+    font-size: 20px;
+    height: 30px;
+    width: 35px;
+    border: none;
+    border-radius: 0 15px 15px 0;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
 
 .userArea {
     display: flex;
     align-items: center;
-    margin-left: 140px;
+    margin-left: 120px;
     background-color: #ABD373;
     color: #fff;
     height: 100%;
