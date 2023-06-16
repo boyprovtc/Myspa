@@ -13,7 +13,7 @@ function DMSP() {
                 </div>
                 <hr />
                 
-                <div className='mid'>
+                <div className='midDMSP'>
                     <a href="themDMSP" className="themdmsp"><AiIcons.AiOutlinePlus />Thêm danh mục sản phẩm</a>
                     <br />
                     <hr />

@@ -1,0 +1,216 @@
+.khoBan{
+    width: 100%;
+    height: 1080px;
+    background: #F0F2F5;
+    padding-top: 50px;
+    padding-left: 200px;
+}
+
+.contaiNer {
+    padding: 20px;
+    padding-top: 30px;
+    background: rgb(255, 255, 255);
+    width: 95%;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 30px;
+    box-shadow: 0px 5px 5px #999999;
+}
+
+.btn-cantonkho{
+    border: solid 0.5px;
+    border-radius: 20px;
+    color: #000;
+    padding: 0 5px;
+    margin-left: 76%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: 105px;
+    height: 25px;
+    gap: 5px;
+    font-size: 13px;
+}
+
+.btn-cantonkho:hover {
+    background: #d8d7d7;
+}
+
+.btn-xuattonkho{
+    border: solid 0.5px;
+    border-radius: 20px;
+    color: #000;
+    padding: 0 5px;
+    margin-left: 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: 105px;
+    height: 25px;
+    gap: 5px;
+    font-size: 13px;
+}
+
+.btn-xuattonkho:hover {
+    background: #d8d7d7;
+}
+
+.nhaptimkiemSpKho{
+    padding: 8px 20px;
+    border: solid 0.5px;
+    border-radius: 20px 0 0 20px;
+    display: flex;
+    width: 250px;
+    height: 35px;
+    margin: 10px;
+}
+
+.timkiemSpKho{
+    color: #fff;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    background: #ABD373;
+    display: flex;
+    width: 100px;
+    height: 35px;
+    margin: 10px;
+    padding: 7px 15px;
+    margin-left: -10px;
+    text-decoration: none;
+}
+
+.btn-taophieunhap{
+    background: #ABD373;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    padding: 0 15px;
+    margin: 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: 175px;
+    height: 35px;
+    gap: 5px;
+}
+
+.btn-taophieunhap:hover {
+    background-color: #9acc51;
+    border-color: #9acc51;
+}
+
+.btn-taophieuxuat{
+    background: #7266ba;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    padding: 0 15px;
+    margin: 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: 175px;
+    height: 35px;
+    gap: 10px;
+}
+
+.btn-taophieuxuat:hover {
+    background-color: #6254b2;
+    border-color: #6254b2;
+}
+
+.btn-lichsunhapxuat{
+    border-radius: 20px;
+    border: solid 0.5px;
+    color: #000;
+    padding: 0 15px;
+    margin: 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 35px;
+    gap: 10px;
+}
+
+.btn-lichsunhapxuat:hover {
+    background: #d8d7d7;
+}
+
+label.ant-checkbox-wrapper.css-dev-only-do-not-override-12jzuas{
+    padding: 20px;
+    font-size: 16px;
+}
+
+:where(.css-dev-only-do-not-override-12jzuas).ant-checkbox .ant-checkbox-inner{
+    width: 30px;
+    height: 30px;
+    margin-top: -5px;
+    margin-right: 5px;
+}
+    
+.mid{
+    display: flex;
+}
+
+.right-1{
+    display: flex;
+    margin-left: 460px;
+}
+
+.mid-2{
+    display: flex;
+    margin-left: 1285px;
+}
+
+.tungay{
+    padding: 8px 20px;
+    border: solid 0.5px;
+    border-radius: 20px;
+    display: flex;
+    width: 105px;
+    height: 35px;
+    margin: 10px;
+}
+
+.denngay{
+    padding: 8px 20px;
+    border: solid 0.5px;
+    border-radius: 20px;
+    display: flex;
+    width: 110px;
+    height: 35px;
+    margin: 10px;
+}
+
+.xacnhan{
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    background: #ABD373;
+    display: flex;
+    width: 100px;
+    height: 35px;
+    margin: 10px;
+    padding: 7px 15px;
+    text-decoration: none;
+}
+
+.xacnhan:hover{
+    background-color: #9acc51;
+    border-color: #9acc51;
+}
+
+.mid-3{
+    display: flex;
+    margin-left: 1320px;
+}
+.hientonkho{
+    margin-right: 15px;
+    font-size: 15px;
+}
+
+.antonkho{
+    margin-left: 15px;
+    font-size: 15px;
+}

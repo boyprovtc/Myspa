@@ -13,8 +13,8 @@ function donvi() {
                 </div>
                 <hr />
                 
-                <div className='mid'>
-                    <a href="themDV" className="themDonVi"><AiIcons.AiOutlinePlus />Đơn vị hiệu sản phẩm</a>
+                <div className='midDV'>
+                    <a href="themDV" className="themDonVi"><AiIcons.AiOutlinePlus />Đơn vị sản phẩm</a>
                     <br />
                     <hr />
                     <ListDonVi/>
