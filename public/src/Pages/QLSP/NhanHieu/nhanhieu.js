@@ -13,7 +13,7 @@ function nhanhieu() {
                 </div>
                 <hr />
                 
-                <div className='mid'>
+                <div className='midNhanHieu'>
                     <a href="themNhanHieu" className="themNH"><AiIcons.AiOutlinePlus />Thêm nhãn hiệu sản phẩm</a>
                     <br />
                     <hr />

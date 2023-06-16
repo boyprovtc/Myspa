@@ -47,6 +47,8 @@
     ]
   },
   "devDependencies": {
-    "css-loader": "^6.7.4"
+    "@types/jest": "^29.5.2",
+    "css-loader": "^6.7.4",
+    "ts-jest": "^29.1.0"
   }
 }
