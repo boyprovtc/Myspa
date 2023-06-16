@@ -1,8 +1,8 @@
 import React from 'react'
-import * as FaIcons from 'react-icons/fa'
+//import * as FaIcons from 'react-icons/fa'
 import * as AiIcons from 'react-icons/ai'
 import styled from 'styled-components'
-import '../css/home.css'
+import '../css/Home.css'
 import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 
@@ -117,7 +117,7 @@ width: 20%;
 background-color: #E7E7E7;
 
 `
-const Shop = styled.div`
+const ShopAdv = styled.div`
 width: 83%;
 height: 600px;
 margin: 30px;
@@ -273,19 +273,19 @@ function Home() {
                                                 <div style={{ fontSize: 20, fontWeight: 'bold', color: 'lightgreen' }}>0</div><div style={{ fontSize: 12 }}>Chưa xác nhận</div>
                                             </div>
                                             <div className='data_item'>
-                                                <div style={{ fontSize: 20, fontWeight: 'bold', color: 'orange' }}>0</div><div style={{ fontSize: 12 }}>Chưa xác nhận</div>
+                                                <div style={{ fontSize: 20, fontWeight: 'bold', color: 'orange' }}>0</div><div style={{ fontSize: 12 }}>Xác nhận</div>
                                             </div>
                                             <div className='data_item'>
-                                                <div style={{ fontSize: 20, fontWeight: 'bold', color: 'lightblue' }}>0</div><div style={{ fontSize: 12 }}>Chưa xác nhận</div>
+                                                <div style={{ fontSize: 20, fontWeight: 'bold', color: 'lightblue' }}>0</div><div style={{ fontSize: 12 }}>Không đến</div>
                                             </div>
                                             <div className='data_item'>
-                                                <div style={{ fontSize: 20, fontWeight: 'bold', color: 'cyan' }}>0</div><div style={{ fontSize: 12 }}>Chưa xác nhận</div>
+                                                <div style={{ fontSize: 20, fontWeight: 'bold', color: 'cyan' }}>0</div><div style={{ fontSize: 12 }}>Hủy</div>
                                             </div>
                                             <div className='data_item'>
-                                                <div style={{ fontSize: 20, fontWeight: 'bold', color: 'pink' }}>0</div><div style={{ fontSize: 12 }}>Chưa xác nhận</div>
+                                                <div style={{ fontSize: 20, fontWeight: 'bold', color: 'pink' }}>0</div><div style={{ fontSize: 12 }}>Đã đến</div>
                                             </div>
                                             <div className='data_item'>
-                                                <div style={{ fontSize: 20, fontWeight: 'bold', color: 'yellow' }}>0</div><div style={{ fontSize: 12 }}>Chưa xác nhận</div>
+                                                <div style={{ fontSize: 20, fontWeight: 'bold', color: 'yellow' }}>0</div><div style={{ fontSize: 12 }}>Đặt online</div>
                                             </div>
                                         </div>
                                         <hr />
@@ -302,19 +302,19 @@ function Home() {
                                                 <div style={{ fontSize: 20, fontWeight: 'bold', color: 'lightgreen' }}>0</div><div style={{ fontSize: 12 }}>Chưa xác nhận</div>
                                             </div>
                                             <div className='data_item'>
-                                                <div style={{ fontSize: 20, fontWeight: 'bold', color: 'orange' }}>0</div><div style={{ fontSize: 12 }}>Chưa xác nhận</div>
+                                                <div style={{ fontSize: 20, fontWeight: 'bold', color: 'orange' }}>0</div><div style={{ fontSize: 12 }}>Xác nhận</div>
                                             </div>
                                             <div className='data_item'>
-                                                <div style={{ fontSize: 20, fontWeight: 'bold', color: 'lightblue' }}>0</div><div style={{ fontSize: 12 }}>Chưa xác nhận</div>
+                                                <div style={{ fontSize: 20, fontWeight: 'bold', color: 'lightblue' }}>0</div><div style={{ fontSize: 12 }}>Không đến</div>
                                             </div>
                                             <div className='data_item'>
-                                                <div style={{ fontSize: 20, fontWeight: 'bold', color: 'cyan' }}>0</div><div style={{ fontSize: 12 }}>Chưa xác nhận</div>
+                                                <div style={{ fontSize: 20, fontWeight: 'bold', color: 'cyan' }}>0</div><div style={{ fontSize: 12 }}>Hủy</div>
                                             </div>
                                             <div className='data_item'>
-                                                <div style={{ fontSize: 20, fontWeight: 'bold', color: 'pink' }}>0</div><div style={{ fontSize: 12 }}>Chưa xác nhận</div>
+                                                <div style={{ fontSize: 20, fontWeight: 'bold', color: 'pink' }}>0</div><div style={{ fontSize: 12 }}>Đã đến</div>
                                             </div>
                                             <div className='data_item'>
-                                                <div style={{ fontSize: 20, fontWeight: 'bold', color: 'yellow' }}>0</div><div style={{ fontSize: 12 }}>Chưa xác nhận</div>
+                                                <div style={{ fontSize: 20, fontWeight: 'bold', color: 'yellow' }}>0</div><div style={{ fontSize: 12 }}>Đặt online</div>
                                             </div>
                                         </div>
                                         <hr />
@@ -331,19 +331,19 @@ function Home() {
                                                 <div style={{ fontSize: 20, fontWeight: 'bold', color: 'lightgreen' }}>0</div><div style={{ fontSize: 12 }}>Chưa xác nhận</div>
                                             </div>
                                             <div className='data_item'>
-                                                <div style={{ fontSize: 20, fontWeight: 'bold', color: 'orange' }}>0</div><div style={{ fontSize: 12 }}>Chưa xác nhận</div>
+                                                <div style={{ fontSize: 20, fontWeight: 'bold', color: 'orange' }}>0</div><div style={{ fontSize: 12 }}>Xác nhận</div>
                                             </div>
                                             <div className='data_item'>
-                                                <div style={{ fontSize: 20, fontWeight: 'bold', color: 'lightblue' }}>0</div><div style={{ fontSize: 12 }}>Chưa xác nhận</div>
+                                                <div style={{ fontSize: 20, fontWeight: 'bold', color: 'lightblue' }}>0</div><div style={{ fontSize: 12 }}>Không đến</div>
                                             </div>
                                             <div className='data_item'>
-                                                <div style={{ fontSize: 20, fontWeight: 'bold', color: 'cyan' }}>0</div><div style={{ fontSize: 12 }}>Chưa xác nhận</div>
+                                                <div style={{ fontSize: 20, fontWeight: 'bold', color: 'cyan' }}>0</div><div style={{ fontSize: 12 }}>Hủy</div>
                                             </div>
                                             <div className='data_item'>
-                                                <div style={{ fontSize: 20, fontWeight: 'bold', color: 'pink' }}>0</div><div style={{ fontSize: 12 }}>Chưa xác nhận</div>
+                                                <div style={{ fontSize: 20, fontWeight: 'bold', color: 'pink' }}>0</div><div style={{ fontSize: 12 }}>Đã đến</div>
                                             </div>
                                             <div className='data_item'>
-                                                <div style={{ fontSize: 20, fontWeight: 'bold', color: 'yellow' }}>0</div><div style={{ fontSize: 12 }}>Chưa xác nhận</div>
+                                                <div style={{ fontSize: 20, fontWeight: 'bold', color: 'yellow' }}>0</div><div style={{ fontSize: 12 }}>Đặt online</div>
                                             </div>
                                         </div>
                                         <hr />
@@ -357,72 +357,217 @@ function Home() {
                                     Top 5 dịch vụ tháng 5
                                 </FourthSection>
                                 <FifthSection>
-                                    <table style={{ width: 800, height: 200 }}>
+                                    <div className='Fif_label' style={{ fontSize: 28, fontWeight: 'bold', textAlign: 'center', padding: 20, color: '#898989' }}>
+                                        Đặt chỗ 2023
+                                    </div>
+                                    <div className='Fif_label2' >
+                                        <div style={{ fontSize: 28, fontWeight: 'bold', margin: '20px 150px 20px 110px' }}>0<br /><div style={{ fontSize: 10 }}>Cả năm</div></div>
+                                        <div style={{ fontSize: 28, fontWeight: 'bold', margin: '20px 150px 20px 110px' }}>0<br /><div style={{ fontSize: 10 }}>Tháng này</div></div>
+                                        <div style={{ fontSize: 28, fontWeight: 'bold', margin: '20px 150px 20px 110px' }}>0<br /><div style={{ fontSize: 10 }}>Hôm nay</div></div>
+                                    </div>
+                                    <div style={{ display: 'flex', textAlign: 'right', alignItems: 'center', marginTop: 10, marginLeft: 90 }}>
+                                        <table style={{ height: 190, fontSize: 11 }}>
+                                            <tr><th style={{ border: 'none' }}>1</th></tr>
+                                            <tr><th style={{ border: 'none' }}>0.5</th></tr>
+                                            <tr><th style={{ border: 'none' }}>0</th></tr>
+                                            <tr><th style={{ border: 'none' }}>-0.5</th></tr>
+                                            <tr><th style={{ border: 'none' }}>-1</th></tr>
+                                        </table>
+                                        <table style={{ marginLeft: 10, fontSize: 8, height: 150 }}>
+                                            <tr>
+                                                <th className='ChartElement'></th>
+                                                <th className='ChartElement'></th>
+                                                <th className='ChartElement'></th>
+                                                <th className='ChartElement'></th>
+                                                <th className='ChartElement'></th>
+                                                <th className='ChartElement'></th>
+                                                <th className='ChartElement'></th>
+                                                <th className='ChartElement'></th>
+                                                <th className='ChartElement'></th>
+                                                <th className='ChartElement'></th>
+                                                <th className='ChartElement'></th>
+                                                <th className='last column' style={{ border: 'none' }}></th>
+                                            </tr>
+                                            <tr>
+                                                <td className='ChartElement'><hr className='hr1' /></td>
+                                                <td className='ChartElement'><hr className='hr1' /></td>
+                                                <td className='ChartElement'><hr className='hr1' /></td>
+                                                <td className='ChartElement'><hr className='hr1' /></td>
+                                                <td className='ChartElement'><hr className='hr1' /></td>
+                                                <td className='ChartElement'><hr className='hr1' /></td>
+                                                <td className='ChartElement'><hr className='hr1' /></td>
+                                                <td className='ChartElement'><hr className='hr1' /></td>
+                                                <td className='ChartElement'><hr className='hr1' /></td>
+                                                <td className='ChartElement'><hr className='hr1' /></td>
+                                                <td className='ChartElement'><hr className='hr1' /></td>
+                                                <th className='last column' style={{ border: 'none' }}></th>
+                                            </tr>
+                                            <tr>
+                                                <td className='ChartElement'></td>
+                                                <td className='ChartElement'></td>
+                                                <td className='ChartElement'></td>
+                                                <td className='ChartElement'></td>
+                                                <td className='ChartElement'></td>
+                                                <td className='ChartElement'></td>
+                                                <td className='ChartElement'></td>
+                                                <td className='ChartElement'></td>
+                                                <td className='ChartElement'></td>
+                                                <td className='ChartElement'></td>
+                                                <td className='ChartElement'></td>
+                                                <th className='last column' style={{ border: 'none' }}></th>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <table style={{ textAlign: 'left', marginLeft: 150 }}>
                                         <tr>
-                                            <th></th>
-                                            <th></th>
-                                            <th></th>
-                                            <th></th>
-                                            <th></th>
-                                            <th></th>
-                                            <th></th>
-                                            <th></th>
-                                            <th></th>
-                                            <th></th>
-                                            <th></th>
-                                        </tr>
-                                        <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
+                                            <th style={{ border: 'none', fontSize: 8 }}>Một</th>
+                                            <th style={{ border: 'none', fontSize: 8 }}>Hai</th>
+                                            <th style={{ border: 'none', fontSize: 8 }}>Ba</th>
+                                            <th style={{ border: 'none', fontSize: 8 }}>Bốn</th>
+                                            <th style={{ border: 'none', fontSize: 8 }}>Năm</th>
+                                            <th style={{ border: 'none', fontSize: 8 }}>Sáu</th>
+                                            <th style={{ border: 'none', fontSize: 8 }}>Bảy</th>
+                                            <th style={{ border: 'none', fontSize: 8 }}>Tám</th>
+                                            <th style={{ border: 'none', fontSize: 8 }}>Chín</th>
+                                            <th style={{ border: 'none', fontSize: 8 }}>Mười</th>
+                                            <th style={{ border: 'none', fontSize: 8 }}>Mười một</th>
+                                            <th style={{ border: 'none', fontSize: 8 }}>Mười hai</th>
                                         </tr>
                                     </table>
                                 </FifthSection>
                                 <SixthSection>
                                     Nhân viên tích cực tháng 5
                                 </SixthSection>
-                                <SeventhSection></SeventhSection>
+                                <SeventhSection>
+                                    <div className='Sev_label' style={{ fontSize: 28, fontWeight: 'bold', textAlign: 'center', padding: 20, color: '#898989' }}>
+                                        Doanh thu 2023
+                                    </div>
+                                    <div className='Sev_label2' >
+                                        <div style={{ fontSize: 28, fontWeight: 'bold', margin: '20px 150px 20px 110px' }}><br /><div style={{ fontSize: 10 }}></div></div>
+                                        <div style={{ fontSize: 28, fontWeight: 'bold', margin: '20px 150px 20px 110px' }}><br /><div style={{ fontSize: 10 }}></div></div>
+                                        <div style={{ fontSize: 28, fontWeight: 'bold', margin: '20px 150px 20px 110px' }}><br /><div style={{ fontSize: 10 }}></div></div>
+                                    </div>
+                                    <div style={{ display: 'flex', textAlign: 'right', alignItems: 'center', marginTop: 10, marginLeft: 90 }}>
+                                        <table style={{ height: 190, fontSize: 11 }}>
+                                            <tr><th style={{ border: 'none' }}>1</th></tr>
+                                            <tr><th style={{ border: 'none' }}>0.5</th></tr>
+                                            <tr><th style={{ border: 'none' }}>0</th></tr>
+                                            <tr><th style={{ border: 'none' }}>-0.5</th></tr>
+                                            <tr><th style={{ border: 'none' }}>-1</th></tr>
+                                        </table>
+                                        <table style={{ marginLeft: 10, fontSize: 8, height: 150 }}>
+                                            <tr>
+                                                <th className='ChartElement'></th>
+                                                <th className='ChartElement'></th>
+                                                <th className='ChartElement'></th>
+                                                <th className='ChartElement'></th>
+                                                <th className='ChartElement'></th>
+                                                <th className='ChartElement'></th>
+                                                <th className='ChartElement'></th>
+                                                <th className='ChartElement'></th>
+                                                <th className='ChartElement'></th>
+                                                <th className='ChartElement'></th>
+                                                <th className='ChartElement'></th>
+                                                <th className='last column' style={{ border: 'none' }}></th>
+                                            </tr>
+                                            <tr>
+                                                <td className='ChartElement'><hr className='hr2' /></td>
+                                                <td className='ChartElement'><hr className='hr2' /></td>
+                                                <td className='ChartElement'><hr className='hr2' /></td>
+                                                <td className='ChartElement'><hr className='hr2' /></td>
+                                                <td className='ChartElement'><hr className='hr2' /></td>
+                                                <td className='ChartElement'><hr className='hr2' /></td>
+                                                <td className='ChartElement'><hr className='hr2' /></td>
+                                                <td className='ChartElement'><hr className='hr2' /></td>
+                                                <td className='ChartElement'><hr className='hr2' /></td>
+                                                <td className='ChartElement'><hr className='hr2' /></td>
+                                                <td className='ChartElement'><hr className='hr2' /></td>
+                                                <th className='last column' style={{ border: 'none' }}></th>
+                                            </tr>
+                                            <tr>
+                                                <td className='ChartElement'></td>
+                                                <td className='ChartElement'></td>
+                                                <td className='ChartElement'></td>
+                                                <td className='ChartElement'></td>
+                                                <td className='ChartElement'></td>
+                                                <td className='ChartElement'></td>
+                                                <td className='ChartElement'></td>
+                                                <td className='ChartElement'></td>
+                                                <td className='ChartElement'></td>
+                                                <td className='ChartElement'></td>
+                                                <td className='ChartElement'></td>
+                                                <th className='last column' style={{ border: 'none' }}></th>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <table style={{ textAlign: 'left', marginLeft: 150 }}>
+                                        <tr>
+                                            <th style={{ border: 'none', fontSize: 8 }}>Một</th>
+                                            <th style={{ border: 'none', fontSize: 8 }}>Hai</th>
+                                            <th style={{ border: 'none', fontSize: 8 }}>Ba</th>
+                                            <th style={{ border: 'none', fontSize: 8 }}>Bốn</th>
+                                            <th style={{ border: 'none', fontSize: 8 }}>Năm</th>
+                                            <th style={{ border: 'none', fontSize: 8 }}>Sáu</th>
+                                            <th style={{ border: 'none', fontSize: 8 }}>Bảy</th>
+                                            <th style={{ border: 'none', fontSize: 8 }}>Tám</th>
+                                            <th style={{ border: 'none', fontSize: 8 }}>Chín</th>
+                                            <th style={{ border: 'none', fontSize: 8 }}>Mười</th>
+                                            <th style={{ border: 'none', fontSize: 8 }}>Mười một</th>
+                                            <th style={{ border: 'none', fontSize: 8 }}>Mười hai</th>
+                                        </tr>
+                                    </table>
+                                </SeventhSection>
                             </BodyContainer>
 
                         </MainContainer>
                         <RightContainer>
-                            <Shop>
+                            <ShopAdv>
+                                <div style={{
+                                    fontSize: 22,
+                                    fontWeight: 'bold',
+                                    textAlign: 'center',
+                                    padding: 10,
+                                    color: '#fff'
+                                }}>Gian hàng trên BeautiX</div>
+                                <a href='' style={{
+                                    marginLeft: 180,
+                                    textDecoration: 'none',
+                                    color: '#fff'
+                                }}>Xem gian hàng...</a>
+                                < div className='Status' style={{
+                                    display: 'flex',
+                                    color: 'white'
+                                }}>
+                                    <div style={{
+                                        marginLeft: 15
+                                    }}>Trạng Thái:</div>
+                                    <a href='#' style={{
+                                        marginLeft: 110,
+                                        textDecoration: 'none',
+                                        color: 'white'
+                                    }}>Xem Chi Tiết</a>
+                                </div>
+                                <div class="switch">
+                                    <label style={{ width: 200, height: 'auto', padding: 3, backgroundColor: '#fff', borderRadius: 15, textAlign: 'center' }}>Chưa mở gian hàng</label>
+                                    <input type="checkbox" id="check" />
+                                    <label for="check" class="button"></label>
+                                </div>
+                                <div style={{ marginTop: 30, marginLeft: 40 }}>
+                                    <label style={{ width: 50, height: 50, padding: 10, backgroundColor: '#fff', borderRadius: 25, textAlign: 'center', fontSize: 20, fontWeight: 'bold' }}>2</label>
+                                    <label style={{ padding: 15, textAlign: 'center', justifyContent: 'center', fontWeight: 'bold', color: '#fff' }}>Lượt theo dõi</label>
+                                </div>
+                                <div style={{ marginTop: 30, marginLeft: 40 }}>
+                                    <label style={{ width: 50, height: 50, padding: 10, backgroundColor: '#fff', borderRadius: 25, textAlign: 'center', fontSize: 20, fontWeight: 'bold' }}>2</label>
+                                    <label style={{ padding: 15, textAlign: 'center', justifyContent: 'center', fontWeight: 'bold', color: '#fff' }}>Người ghé thăm</label>
+                                </div>
+                                <div style={{ marginTop: 30, marginLeft: 40 }}>
+                                    <label style={{ width: 50, height: 50, padding: 10, backgroundColor: '#fff', borderRadius: 25, textAlign: 'center', fontSize: 20, fontWeight: 'bold' }}>2</label>
+                                    <label style={{ padding: 15, textAlign: 'center', justifyContent: 'center', fontWeight: 'bold', color: '#fff' }}>Lượt quan tâm sản phẩm</label>
+                                </div>
+                                <div style={{ textAlign: 'center', marginTop: 30, marginLeft: 60, padding: 3, width: 200, height: 30, borderRadius: 15, backgroundColor: '#7266ba', boxShadow: '-5px 5px 5px black' }} ><a href='#' style={{ textDecoration: 'none', color: '#fff' }}>Đăng kí ngay!</a></div>
 
-                            </Shop>
+
+                            </ShopAdv>
                         </RightContainer>
                     </Container>
 
