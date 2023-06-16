@@ -1,4 +1,5 @@
 /*_______________________________MainContainer__________________________*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 /*________________HeadContainer_________________*/
 text {
@@ -15,12 +16,16 @@ text {
     font-size: 20px;
     text-align: center;
     margin-top: 20px;
+    font-weight: bold;
+    color: #898989;
 }
 
 .fst_label2 {
     font-size: 10px;
     text-align: center;
     margin-bottom: 10px;
+    font-weight: bold;
+    color: #898989;
 }
 
 .ProgressArea {
@@ -140,6 +145,8 @@ circle {
     border-radius: 10px;
     box-shadow: -5px 5px 5px gray;
     margin-right: 30px;
+    font-weight: bold;
+    color: #898989;
 }
 
 .dataNumber {
@@ -154,13 +161,114 @@ circle {
 /*__________End_ThirdSection_________*/
 /*__________FifthSection_____________*/
 
-table, th, td, tr {
-    margin-top: 150px;
-    margin-left: 30px;
-    border: 2px solid black;
+
+
+.ChartElement {
+    border: 1px solid black;
+    width: 60px;
+    opacity: .8;
+}
+
+th, td {
+    border: 1px solid black;
+    width: 60px;
+    opacity: .8;
+}
+
+.hr1 {
+    margin: 0px;
+    color: #7266BA;
+    border: 0;
+    border-top: 3px solid;
+    opacity: 1;
+}
+
+
+.Fif_label2 {
+    color: #fff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-left: 50px;
+    background-color: #7266ba;
 }
 
 
 /*__________End_FifthSection_____________*/
+.hr2 {
+    margin: 0px;
+    color: #ABD373;
+    border: 0;
+    border-top: 3px solid;
+    opacity: 1;
+}
+
+.Sev_label2 {
+    color: #fff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-left: 50px;
+    background-color: #ABD373;
+}
+
+/*__________SeventhSection_____________*/
+/*__________End_SeventhSection_____________*/
 /*________________End_BodyContainer____________*/
+/*________________RightContainer________________*/
+/*____________ShopAdv____________*/
+
+
+/*____________End_ShopAdv____________*/
+.switch {
+
+
+    display: flex;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.button {
+    background-color: #d2d2d2;
+    width: 45px;
+    height: 26px;
+    border-radius: 200px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.2s;
+    margin-left: 40px;
+
+}
+
+.button::before {
+    position: absolute;
+    content: '';
+    background-color: #fff;
+    width: 17px;
+    height: 17px;
+    border-radius: 200px;
+    margin: 5px;
+    transition: 0.2s;
+}
+
+input:checked+.button {
+    background-color: #ABD373;
+}
+
+input:checked+.button::before {
+    transform: translateX(-20px);
+}
+
+input {
+    display: none;
+}
+
+
+
+/*________________End_RightContainer________________*/
+
 /*_______________________________End_MainContainer______________________*/
