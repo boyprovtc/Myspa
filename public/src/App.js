@@ -6,7 +6,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import KH from './Pages/KH/KH';
 import { DH, LH, DSLH } from './Pages/DH/DH';
-
+import Register from './Pages/KH/Register'
 import SpBan from './Pages/QLSP/SanPhamBan/SpBan';
 import DMSP from './Pages/QLSP/DanhMucSP/DMSP';
 import khoban from './Pages/QLSP/KhoBan/khoban';
@@ -15,7 +15,7 @@ import donvi from './Pages/QLSP/DonVi/donvi';
 import themDMSP from './Pages/QLSP/DanhMucSP/themDMSP';
 import themNhanHieu from './Pages/QLSP/NhanHieu/themNhanHieu';
 import themDV from './Pages/QLSP/DonVi/themDV';
-
+import BC_DTDH from './Pages/BC/BCDTDH'
 function App() {
   return (
     <Router>
@@ -39,6 +39,7 @@ function App() {
         />
         <Route path="/QLSP/DonVi/donvi" exact Component={donvi} />
         <Route path="/QLSP/DonVi/themDV" exact Component={themDV} />
+        <Route path="/BC/BCDTDH" exact Component={BC_DTDH} />
       </Routes>
     </Router>
   );

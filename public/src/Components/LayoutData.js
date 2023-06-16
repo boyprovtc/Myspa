@@ -127,7 +127,7 @@ export const SidebarData = [
             },
             {
                 title: "Doanh thu",
-                path: '/BC/DT'
+                path: '/BC/BCDTDH'
             },
             {
                 title: "Doanh thu năm",
