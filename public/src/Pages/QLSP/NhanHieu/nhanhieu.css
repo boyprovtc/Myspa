@@ -1,4 +1,4 @@
-.dmSP {
+.nhanHieu{
     width: 1920px;
     height: 1080px;
     background: #F0F2F5;
@@ -27,7 +27,7 @@
     font-weight: 700;
 }
 
-.themdmsp {
+.themNH{
     background: #ABD373;
     border-radius: 20px;
     border: none;
@@ -43,9 +43,8 @@
 
 }
 
-.themdmsp:hover {
+.themNH:hover {
     background-color: #9acc51;
     border-color: #9acc51;
     color: #fff;
 }
-

@@ -270,11 +270,11 @@ export const SidebarData = [
             },
             {
                 title: "Nhãn hiệu SP",
-                path: '/KH/NHSP'
+                path: '/QLSP/NhanHieu/nhanhieu'
             },
             {
                 title: "Đơn vị SP",
-                path: '/KH/DVSP'
+                path: '/QLSP/DonVi/donvi'
             }
         ]
     },

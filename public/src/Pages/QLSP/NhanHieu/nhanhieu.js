@@ -1,28 +1,27 @@
 import React from 'react'
 import * as AiIcons from 'react-icons/ai';
-import "./DMSP.css"
-import ListDmSP from './ListDmSp';
+import "./nhanhieu.css"
+import ListNhanHieu from './ListNhanHieu';
 
 
-function DMSP() {
+function nhanhieu() {
     return (
-        <div className='dmSP'>
+        <div className='nhanHieu'>
             <div className='contaiNer'>
                 <div className='top'>
-                    <h2 className='title'>Danh mục sản phẩm</h2>
+                    <h2 className='title'>Nhãn hiệu sản phẩm</h2>
                 </div>
                 <hr />
                 
                 <div className='mid'>
-                    <a href="themDMSP" className="themdmsp"><AiIcons.AiOutlinePlus />Thêm danh mục sản phẩm</a>
+                    <a href="themNhanHieu" className="themNH"><AiIcons.AiOutlinePlus />Thêm nhãn hiệu sản phẩm</a>
                     <br />
                     <hr />
-                    <ListDmSP/>
+                    <ListNhanHieu/>
                 </div>
             </div>
         </div>
     )
-    
 }
 
-export default DMSP
+export default nhanhieu
