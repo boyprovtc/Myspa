@@ -4,7 +4,7 @@ import './LichHen.css';
 import { AiFillSetting } from 'react-icons/ai';
 import { BsDownload } from 'react-icons/bs';
 import BigCalendar from './BigCalendar';
-import AddNewAppointment from '../AddNewAppointment/AddNewAppointment';
+import AddNewAppointment from '../ThemLichHen/ThemLichHen';
 
 function LichHen() {
   const [modalShow, setModalShow] = React.useState(false);

@@ -15,7 +15,7 @@ import donvi from './Pages/QLSP/DonVi/donvi';
 import themDMSP from './Pages/QLSP/DanhMucSP/themDMSP';
 import themNhanHieu from './Pages/QLSP/NhanHieu/themNhanHieu';
 import themDV from './Pages/QLSP/DonVi/themDV';
-import ThemLichHen from './Pages/DH/ThemLichHen/ThemLichHen';
+import ThemLichHen from './Pages/DH/ChinhSuaLH/ChinhSuaLH';
 
 function App() {
   return (

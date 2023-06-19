@@ -1,19 +1,15 @@
 import React from 'react';
-import { Form, Row, Col, Button } from 'react-bootstrap';
-import './ThemLH.css';
-import { DatePicker, Checkbox, Switch, Space } from 'antd';
-import { BsFillPlusCircleFill } from 'react-icons/bs';
-import { ListRadioItem } from '../AddNewAppointment/ListRadioItem';
+import { Checkbox, Switch } from 'antd';
+import { Button, Modal, Form, Row, Col } from 'react-bootstrap';
+import { AiFillPlusCircle } from 'react-icons/ai';
+import { ListRadioItem } from './ListRadioItem';
 
-function ThemLichHen() {
-  const LapSwi = (checked) => {
+function AddNewAppointment(props) {
+  const onChanged = (checked) => {
     console.log(`switch to ${checked}`);
   };
-  const checkedVal = (checkedValues) => {
+  const onChange = (checkedValues) => {
     console.log('checked = ', checkedValues);
-  };
-  const onChange = (date, dateString) => {
-    console.log(date, dateString);
   };
   const plainOptions = [
     'Mặc định',
@@ -21,192 +17,129 @@ function ThemLichHen() {
     'Lịch liệu trình',
     'Lịch điều trị',
   ];
+
   return (
-    <>
-      <div className="LichHen">
-        <div className="Container">
-          <Form
-            className="mb-3"
-            style={{ borderBottom: '1px solid #6ACAF7', paddingBottom: '7px' }}
+    <Modal
+      {...props}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
+      <Modal.Header closeButton>
+        <Modal.Title
+          id="contained-modal-title-vcenter"
+          style={{ color: '#abd373' }}
+        >
+          Đặt hẹn
+        </Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <Form.Group as={Row}>
+          <Col sm={8}>
+            <Form.Control
+              type="text"
+              placeholder="Tìm nhanh KH..."
+              className="rounded-pill"
+            />
+          </Col>
+          <Col sm={4}>
+            <Form.Control
+              type="text"
+              placeholder="Ngày giờ"
+              className="rounded-pill"
+            />
+          </Col>
+          <Form.Group as={Row}>
+            <Col md={4} lg={4}>
+              <Form.Label>Tên khách hàng</Form.Label>
+              <Form.Control className="rounded-pill" type="text" />
+            </Col>
+            <Col md={4} lg={4}>
+              <Form.Label>Số điện thoại</Form.Label>
+              <Form.Control className="rounded-pill" type="text" />
+            </Col>
+            <Col md={3} lg={3}>
+              <Form.Label>Email</Form.Label>
+              <Form.Control className="rounded-pill" type="text" />
+            </Col>
+            <Col className="mt-4" md={1} lg={1}>
+              <AiFillPlusCircle className="fs-1" style={{ color: '#abd373' }} />
+            </Col>
+          </Form.Group>
+          <Form.Group>
+            <Checkbox.Group
+              options={plainOptions}
+              defaultValue={['Apple']}
+              onChange={onChange}
+            />
+            <br />
+            <br />
+          </Form.Group>
+          <Form.Group>
+            <Form.Label>Lặp lại</Form.Label> <br />
+            <Switch defaultChecked onChange={onChanged} />
+          </Form.Group>
+          <Col sm={12}>
+            <Form.Label>Chi nhánh</Form.Label>
+            <Form.Control className="rounded-pill" type="text" />
+          </Col>
+          <Col sm={12}>
+            <Form.Label>Dịch vụ</Form.Label>
+            <Form.Control className="rounded-pill" type="text" />
+          </Col>
+          <Col sm={12}>
+            <Form.Label>Nhân viên/CTV</Form.Label>
+            <Form.Control className="rounded-pill" type="text" />
+          </Col>
+          <Col sm={12}>
+            <Form.Label>Nội dung đặt hẹn</Form.Label>
+            <Form.Control as="textarea" style={{ height: '200px' }} />
+          </Col>
+          <Col sm={12}>
+            <ListRadioItem />
+          </Col>
+        </Form.Group>
+      </Modal.Body>
+      <Modal.Footer
+        style={{ display: 'flex', justifyContent: 'space-between' }}
+      >
+        <div>
+          <Button
+            className="rounded-pill"
+            bg
+            variant="primary"
+            style={{ background: '#7266ba', border: '#7266ba' }}
           >
-            <h1 style={{ color: '#abd373' }}>Thêm/Chỉnh sửa lịch hẹn</h1>
-          </Form>
-
-          <div className="form-center">
-            <Row className="row">
-              <h4>Đặt hẹn</h4>
-              <Col xs={8}>
-                <Form.Group>
-                  <Form.Label></Form.Label>
-                  <Form.Control
-                    className="mb-3 rounded-pill"
-                    placeholder="Tìm nhanh KH..."
-                  />
-                </Form.Group>
-              </Col>
-              <Col xs={4}>
-                <Form.Group>
-                  <Form.Label>Ngày đặt</Form.Label>
-                  <br />
-                  <DatePicker
-                    onChange={onChange}
-                    style={{ borderRadius: '50px', borderColor: '#999' }}
-                  />
-                </Form.Group>
-              </Col>
-
-              <Col>
-                <div className="grid-container">
-                  <div className="item">
-                    <Form.Group>
-                      <Form.Label>Tên khách hàng</Form.Label>
-                      <Form.Control className="mb-3 rounded-pill" />
-                    </Form.Group>
-                  </div>
-                  <div className="item">
-                    <Form.Group>
-                      <Form.Label>Tên khách hàng</Form.Label>
-                      <Form.Control className="mb-3 rounded-pill" />
-                    </Form.Group>
-                  </div>
-                  <div className="item">
-                    <Form.Group>
-                      <Form.Label>Tên khách hàng</Form.Label>
-                      <Form.Control className="mb-3 rounded-pill" />
-                    </Form.Group>
-                  </div>
-                  <div className="item">
-                    <BsFillPlusCircleFill
-                      className="mt-4 fs-1 "
-                      style={{ color: '#abd373' }}
-                    />
-                  </div>
-                </div>
-                <div className="form-group"></div>
-              </Col>
-              <Col xs={12}>
-                <Checkbox.Group
-                  className="d-flex justify-content-around"
-                  options={plainOptions}
-                  defaultValue={['Mặc định']}
-                  onChange={checkedVal}
-                />
-              </Col>
-              <Col xs={4}>
-                <Space direction="vertical">
-                  <h5>Lặp</h5>
-                  <Switch defaultChecked onChange={LapSwi} />
-                </Space>
-              </Col>
-              <Col xs={4}>
-                <Form.Group>
-                  <Form.Label>Cách ngày</Form.Label>
-                  <Form.Control
-                    className="rounded-pill"
-                    style={{ borderColor: '#999' }}
-                  />
-                </Form.Group>
-              </Col>
-              <Col xs={4}>
-                <Form.Group>
-                  <Form.Label>Tổng số lần</Form.Label>
-                  <Form.Control
-                    className="rounded-pill"
-                    style={{ borderColor: '#999' }}
-                  />
-                </Form.Group>
-              </Col>
-              <Col xs={12}>
-                <Form.Group>
-                  <Form.Label>Chi nhánh</Form.Label>
-                  <Form.Control
-                    className="rounded-pill"
-                    style={{ borderColor: '#999' }}
-                    placeholder="Tất cả"
-                  />
-                </Form.Group>
-              </Col>
-              <Col xs={12}>
-                <Form.Group>
-                  <Form.Label>Chi nhánh</Form.Label>
-                  <Form.Control
-                    className="rounded-pill"
-                    style={{ borderColor: '#999' }}
-                  />
-                </Form.Group>
-              </Col>
-              <Col xs={12}>
-                <Form.Group>
-                  <Form.Label>Chi nhánh</Form.Label>
-                  <Form.Control
-                    className="rounded-pill"
-                    style={{ borderColor: '#999' }}
-                  />
-                </Form.Group>
-              </Col>
-              <Col xs={12}>
-                <Form.Label>Nội dung đặt hẹn</Form.Label>
-                <Form.Control
-                  as="textarea"
-                  placeholder="..."
-                  style={{ height: '100px', borderColor: '#999' }}
-                />
-              </Col>
-              <Col>
-                <ListRadioItem />
-              </Col>
-            </Row>
-          </div>
-
-          <Form style={{ borderTop: '1px solid #6ACAF7', paddingTop: '7px' }}>
-            <div className="btn_Action">
-              <Button
-                variant="primary"
-                style={{
-                  borderRadius: '50px',
-                  backgroundColor: '#7266ba',
-                  borderColor: '#7266ba',
-                }}
-              >
-                Tạo đơn hàng
-              </Button>
-              <Button
-                variant="primary"
-                style={{
-                  borderRadius: '50px',
-                  backgroundColor: '#f26c4f',
-                  borderColor: '#f26c4f',
-                }}
-              >
-                Xóa
-              </Button>
-              <Button
-                bg
-                style={{
-                  borderRadius: '50px',
-                  backgroundColor: 'white',
-                  borderColor: '#999',
-                  color: 'black',
-                }}
-              >
-                Trở lại
-              </Button>
-              <Button
-                variant="primary"
-                style={{
-                  borderRadius: '50px',
-                  backgroundColor: '#abd373',
-                  borderColor: '#abd373',
-                }}
-              >
-                Lưu
-              </Button>
-            </div>
-          </Form>
+            Tạo đơn hàng
+          </Button>
         </div>
-      </div>
-    </>
+        <div className=" ">
+          <Button
+            className="rounded-pill "
+            bg
+            variant="primary"
+            style={{ background: '#f26c4f', border: '#f26c4f' }}
+          >
+            Xóa
+          </Button>
+          <Button
+            className="rounded-pill mx-3"
+            onClick={props.onHide}
+            style={{ background: '#e5e5e5', border: '#e5e5e5' }}
+          >
+            Đóng
+          </Button>
+          <Button
+            className="rounded-pill"
+            variant="primary"
+            style={{ background: '#abd373', border: '#abd373' }}
+          >
+            Lưu
+          </Button>
+        </div>
+      </Modal.Footer>
+    </Modal>
   );
 }
 
-export default ThemLichHen;
+export default AddNewAppointment;
