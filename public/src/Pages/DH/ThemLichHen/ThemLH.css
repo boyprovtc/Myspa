@@ -1,0 +1,42 @@
+.LichHen {
+  width: 1920px;
+  height: 1080px;
+  background: #f0f2f5;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+.Container {
+  padding: 20px;
+  padding-top: 30px;
+  background: rgb(255, 255, 255);
+  width: 1600px;
+  height: auto;
+  margin-top: 50px;
+  margin-left: 180px;
+  box-shadow: 0px 5px 5px #999999;
+}
+
+.form-center {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.form-center .row {
+  width: 50vw;
+}
+.row .mb-3 {
+  border-color: #999;
+  padding: 0 10px;
+  height: 32px;
+  font-size: 13px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 1fr;
+  gap: 20px;
+}
+.btn_Action {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 10px;
+}

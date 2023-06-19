@@ -4,8 +4,11 @@ import './LichHen.css';
 import { AiFillSetting } from 'react-icons/ai';
 import { BsDownload } from 'react-icons/bs';
 import BigCalendar from './BigCalendar';
+import AddNewAppointment from '../AddNewAppointment/AddNewAppointment';
 
 function LichHen() {
+  const [modalShow, setModalShow] = React.useState(false);
+
   return (
     <div className="panel wrapper">
       <Row>
@@ -83,7 +86,7 @@ function LichHen() {
                   style={{
                     height: '40px',
                     borderRadius: '50px 0 0 50px',
-                    border: '1px solid black',
+                    borderColor: '#999',
                   }}
                   placeholder="Mã đặt hẹn, tên KH, phone hoặc mã giới thiệu"
                 />
@@ -112,6 +115,7 @@ function LichHen() {
           <Row>
             <Col md={4}>
               <Button
+                onClick={() => setModalShow(true)}
                 className="px-5 rounded-pill"
                 variant="primary"
                 style={{
@@ -122,6 +126,10 @@ function LichHen() {
               >
                 Thêm lịch hẹn mới
               </Button>
+              <AddNewAppointment
+                show={modalShow}
+                onHide={() => setModalShow(false)}
+              />
             </Col>
             <Col md={5}>
               <Button
@@ -154,7 +162,7 @@ function LichHen() {
           style={{
             width: '600px',
             height: '40px',
-            border: '1px solid black',
+            borderColor: '#999',
           }}
           className="mb-3 rounded-pill "
           placeholder="Nhân viên thực hiện"
