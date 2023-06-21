@@ -1,0 +1,30 @@
+.fav_language{
+    display: flex; 
+    width: 20px; 
+    height: 20px;
+}
+
+.ip-1{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 5px;
+}
+.ip-2{
+    display: flex;
+    gap: 15px;
+}
+
+.btn-1{
+    display: flex;
+    width: 20px;
+    height: 20px;
+}
+
+button.rounded-pill.btn.btn-warning {
+    border: none;
+    background: #ABD373;
+}
+
+button.rounded-pill.btn.btn-warning:hover {
+    background: #9acc51;
+}
