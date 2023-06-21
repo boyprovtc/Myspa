@@ -3,8 +3,13 @@ import './DSLichHen.css';
 import { BsSearch } from 'react-icons/bs';
 import { TfiReload } from 'react-icons/tfi';
 import TableLH from './TableLH';
+import { useNavigate } from 'react-router-dom';
 
 function DSLichHen() {
+  const navigate = useNavigate();
+  const themLH = () => {
+    navigate('/themLH');
+  };
   return (
     <div>
       <Row className="mb-4">
@@ -20,14 +25,14 @@ function DSLichHen() {
           >
             <li className="pull-left">
               <h1
-                className="text-success"
                 style={{
+                  color: '#abd373',
                   marginTop: '0',
                   marginBottom: '3px',
                   float: 'left',
                 }}
               >
-                Lịch hẹn
+                Danh sách lịch hẹn
               </h1>
             </li>
             <li className="calendar-note" style={{ float: 'right' }}>
@@ -69,6 +74,7 @@ function DSLichHen() {
               <i class="bi bi-cloud-arrow-up"></i> Nạp danh sách
             </Button>
             <Button
+              onClick={themLH}
               className="pull-right rounded-pill mx-2"
               style={{
                 backgroundColor: '#7266ba',

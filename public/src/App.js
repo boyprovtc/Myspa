@@ -16,6 +16,7 @@ import themDMSP from './Pages/QLSP/DanhMucSP/themDMSP';
 import themNhanHieu from './Pages/QLSP/NhanHieu/themNhanHieu';
 import themDV from './Pages/QLSP/DonVi/themDV';
 import ThemSP from './Pages/QLSP/SanPhamBan/ThemSP';
+import ThemLichHen from './Pages/DH/ChinhSuaLH/ChinhSuaLH';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/DH" exact Component={DH} />
         <Route path="/DH/LH" exact Component={LH} />
         <Route path="/DH/DSLH" exact Component={DSLH} />
+        <Route path="/themLH" exact Component={ThemLichHen} />
         <Route path="/QLSP/SanPhamBan/SpBan" exact Component={SpBan} />
         <Route path="/QLSP/SanPhamBan/ThemSP" exact Component={ThemSP} />
         <Route path="/QLSP/DanhMucSP/DMSP" exact Component={DMSP} />
