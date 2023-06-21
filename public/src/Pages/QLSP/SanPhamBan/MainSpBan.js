@@ -23,7 +23,7 @@ function MainSpBan() {
       <br />
       <div className="midSpBan">
         <div className="topMidSpBan">
-          <a href="#" className="btn-themSpBan">
+          <a href="ThemSP" className="btn-themSpBan">
             <AiIcons.AiOutlinePlus />
             Thêm sản phẩm
           </a>

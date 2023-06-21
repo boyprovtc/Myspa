@@ -1,5 +1,15 @@
 import React from 'react';
 import "./themDMSP.css";
+import {
+    InputGroup,
+    Form,
+    DropdownButton,
+    Dropdown,
+    Container,
+    Row,
+    Col,
+    Button,
+  } from 'react-bootstrap';
 
 
 function themDMSP() {
@@ -13,7 +23,7 @@ function themDMSP() {
                 <br />
                 <br />
                 <div className='midThemDMSP'>
-                    <p>Tên danh mục *</p>
+                    <h6>Tên danh mục *</h6>
                     <input type='text' className='nhapTenDM'></input>
                     <p>Ưu tiên</p>
                     <input type='text' placeholder='0' className='nhapUT'></input>
