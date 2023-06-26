@@ -14,7 +14,7 @@ function donvi() {
                 <hr />
                 
                 <div className='midDV'>
-                    <a href="themDV" className="themDonVi"><AiIcons.AiOutlinePlus />Đơn vị sản phẩm</a>
+                    <a href="themDV" className="themDonVi"><AiIcons.AiOutlinePlus />Thêm đơn vị sản phẩm</a>
                     <br />
                     <hr />
                     <ListDonVi/>
