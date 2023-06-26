@@ -20,6 +20,8 @@ import BC_DTTDV from './Pages/BC/BCDTTDV'
 import BC_DT from './Pages/BC/BCDT'
 import BC_DTN from './Pages/BC/BCDTN'
 import BC_SP from './Pages/BC/BCSP'
+import ThemSP from './Pages/QLSP/SanPhamBan/ThemSP';
+import ThemLichHen from './Pages/DH/ChinhSuaLH/ChinhSuaLH';
 function App() {
   return (
     <Router>
@@ -31,7 +33,9 @@ function App() {
         <Route path="/DH" exact Component={DH} />
         <Route path="/DH/LH" exact Component={LH} />
         <Route path="/DH/DSLH" exact Component={DSLH} />
+        <Route path="/themLH" exact Component={ThemLichHen} />
         <Route path="/QLSP/SanPhamBan/SpBan" exact Component={SpBan} />
+        <Route path="/QLSP/SanPhamBan/ThemSP" exact Component={ThemSP} />
         <Route path="/QLSP/DanhMucSP/DMSP" exact Component={DMSP} />
         <Route path="/QLSP/DanhMucSP/themDMSP" exact Component={themDMSP} />
         <Route path="/QLSP/KhoBan/khoban" exact Component={khoban} />

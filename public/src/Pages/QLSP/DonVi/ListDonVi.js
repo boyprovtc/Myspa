@@ -4,7 +4,7 @@ import { Table } from 'antd';
 
 const columns = [
     {
-        title: 'Nhãn hiệu sản phẩm',
+        title: 'Đơn vị sản phẩm',
         width: 100,
         dataIndex: 'name',
         key: 'name',

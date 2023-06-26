@@ -91,10 +91,11 @@
     border: solid 0.5px;
     border-radius: 20px 0 0 20px;
     display: flex;
-    width: 240px;
+    width: 250px;
     height: 35px;
     margin: 10px;
 }
+
 
 .timkiemSpBan {
     color: #fff;
