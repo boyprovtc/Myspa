@@ -123,15 +123,15 @@ export const SidebarData = [
             },
             {
                 title: "Sản Phẩm",
-                path: '/BC/SP'
+                path: '/BC/BCSP'
             },
             {
                 title: "Doanh thu",
-                path: '/BC/DT'
+                path: '/BC/BCDT'
             },
             {
                 title: "Doanh thu năm",
-                path: '/BC/DTNam'
+                path: '/BC/BCDTN'
             },
             {
                 title: "Phân hạng KH",

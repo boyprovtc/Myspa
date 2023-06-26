@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import * as FaIcons from 'react-icons/fa'
 import { SidebarData } from './LayoutData';
 import Submenu from './Submenu';
-import '../css/Style.css'
+import '../Components/css/Layout.css'
 import * as AiIcons from 'react-icons/ai'
 import Avatar from "../asset/avatar.jpg";
 //import * as IoIcons from 'react-icons/io'
@@ -47,7 +47,7 @@ const Layout = () => {
             <Nav>
                 <a href="#"><button className='ThemKH' >Them KH</button></a>
                 <a href='#'><button className='TaoDonHang'>Tao don hang</button></a>
-                <input className='input' type='text' placeholder='Search...' />
+                <input className='inputSearch' type='text' placeholder='Search...' />
 
                 <button className='SearchButton'><AiIcons.AiOutlineSearch /></button>
                 <div className='userArea'>
