@@ -81,18 +81,76 @@ button:hover {
 
 }
 
-.midData {
+.DTmidData, .DTmidData2, .DTmidData3, .endData, .Total {
+    margin: 10px;
     width: 100%;
-    display: inline-grid;
-    grid-template-columns: auto auto;
-    gap: 40px 200px;
+    display: flex;
+    gap: 50px;
     text-align: center;
     align-items: center;
     justify-content: center;
 }
 
-.dataInfo {
-    width: 500px;
+.DTmidData4 {
+    width: 100%;
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 40px 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.DTdataInfo {
+    background-color: #fff;
+    border: 1px solid #7266BA;
+    width: 250px;
+    height: 80px;
+    padding: 20px;
+    color: #7266BA;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.DTdataInfo2 {
+    background-color: #fff;
+    border: 1px solid #7266BA;
+    width: 350px;
+    height: 80px;
+    padding: 20px;
+    color: #7266BA;
+    font-size: 16;
+    font-weight: bold;
+}
+
+.DTdataInfo3 {
+    background-color: #ABD373;
+    width: 350px;
+    height: 80px;
+    padding: 20px;
+    color: white;
+    font-size: 24;
+    font-weight: bold;
+}
+
+
+
+.DTdataInfo4 {
+    background-color: #fff;
+    border: 1px solid #7266BA;
+    width: 250px;
+    height: 80px;
+    padding: 20px;
+    color: #7266BA;
+    font-size: 24;
+    font-weight: bold;
+}
+
+
+
+.TotalInfo {
+    background-color: #ABD373;
+    width: 350px;
     height: 80px;
     padding: 20px;
     color: white;

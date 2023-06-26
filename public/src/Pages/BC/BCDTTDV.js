@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react'
 
-import '../../css/BCDTDH.css'
+import '../../css/BCDTTDV.css'
 import styled from 'styled-components'
 import * as AiIcons from 'react-icons/ai'
 
@@ -36,7 +36,7 @@ padding:30px;
 function BCDTDH() {
     return (
         <>
-            <div className='BCDTDH'>
+            <div className='BCDTTDV'>
                 <Container>
                     <FirstContainer>
                         <Section>
@@ -47,7 +47,7 @@ function BCDTDH() {
                                     color: '#ABD373',
                                     opacity: 1,
                                     fontWeight: 'bold'
-                                }}>Báo cáo doanh thu đơn hàng
+                                }}>Báo cáo doanh thu thẻ dịch vụ
                             </label>
                             <button className="btn"><AiIcons.AiOutlineCloudDownload /> Xuất </button>
                             <hr style={{
@@ -144,13 +144,30 @@ function BCDTDH() {
                                     </div>
                                 </div>
                             </div>
-
+                            <label style={{
+                                fontSize: 20,
+                                fontWeight: 'bold',
+                                marginLeft: 50
+                            }}>Thẻ liệu trình</label>
                             <div className='midData' >
-                                <label className='dataInfo' style={{ backgroundColor: '#7266BA' }}>Tổng số thanh toán <br />0</label>
-                                <label className='dataInfo' style={{ backgroundColor: '#7266BA' }}>Tổng số thanh toán <br />0</label>
-                                <label className='dataInfo' style={{ backgroundColor: '#ABD373' }}>Tổng số thanh toán <br />0</label>
-                                <label className='dataInfo' style={{ backgroundColor: '#ABD373' }}>Tổng số thanh toán <br />0</label>
+                                <label className='dataInfo' >Tổng số thanh toán <br />0</label>
+                                <label className='dataInfo' >Tổng tiền thanh toán <br />0</label>
+                                <label className='dataInfo' >Mã thanh toán đã nộp <br />0</label>
+                                <label className='dataInfo' >Tổng tiền đã nộp<br />0</label>
                             </div>
+                            <label style={{
+                                fontSize: 20,
+                                fontWeight: 'bold',
+                                marginLeft: 50,
+                                marginTop: 100,
+                            }}>Thẻ trả trước</label>
+                            <div className='midData2' >
+                                <label className='dataInfo2' >Tổng số thanh toán <br />0</label>
+                                <label className='dataInfo2' >Tổng tiền thanh toán <br />0</label>
+                                <label className='dataInfo2' >Mã thanh toán đã nộp <br />0</label>
+                                <label className='dataInfo2' >Tổng tiền đã nộp <br />0</label>
+                            </div>
+
 
                             <table className='reportDataTbl' style={{
                                 width: '100%',
@@ -158,11 +175,10 @@ function BCDTDH() {
                                 marginTop: 50
                             }}>
                                 <tr>
-                                    <th className='Elements_reportDataTbl'>Mã đơn hàng/Chi nhánh</th>
+                                    <th className='Elements_reportDataTbl'>Mã thẻ/ Mã thanh toán/ Mã chi nhánh</th>
                                     <th className='Elements_reportDataTbl'>Họ tên/ Số điện thoại/ Email/ Mã khách hàng</th>
                                     <th className='Elements_reportDataTbl'>Thời gian</th>
                                     <th className='Elements_reportDataTbl'>Thu Ngân</th>
-                                    <th className='Elements_reportDataTbl'>Mã đơn hàng chi nhánh</th>
                                     <th className='Elements_reportDataTbl'>PTTT</th>
                                     <th className='Elements_reportDataTbl'>Số tiền thanh toán</th>
                                     <th className='Elements_reportDataTbl'>Nộp kế toán</th>

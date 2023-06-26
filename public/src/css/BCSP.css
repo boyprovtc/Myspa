@@ -1,0 +1,30 @@
+.inputDateRP {
+    height: 30px;
+    width: 150px;
+    font-size: 16px;
+    border: 1px solid #ABD373;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.detailsList {
+    margin: 30;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 50px 50px;
+
+}
+
+.Elements_detailsListTbl {
+    padding: 30px;
+    text-align: center;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+
+
+}

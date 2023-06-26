@@ -81,18 +81,29 @@ button:hover {
 
 }
 
-.midData {
+.midData, .midData2 {
+    margin: 10px;
     width: 100%;
-    display: inline-grid;
-    grid-template-columns: auto auto;
-    gap: 40px 200px;
+    display: flex;
+    gap: 50px;
     text-align: center;
     align-items: center;
     justify-content: center;
 }
 
 .dataInfo {
-    width: 500px;
+    background-color: #7266BA;
+    width: 350px;
+    height: 80px;
+    padding: 20px;
+    color: white;
+    font-size: 24;
+    font-weight: bold;
+}
+
+.dataInfo2 {
+    background-color: #ABD373;
+    width: 350px;
     height: 80px;
     padding: 20px;
     color: white;

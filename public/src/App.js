@@ -16,6 +16,10 @@ import themDMSP from './Pages/QLSP/DanhMucSP/themDMSP';
 import themNhanHieu from './Pages/QLSP/NhanHieu/themNhanHieu';
 import themDV from './Pages/QLSP/DonVi/themDV';
 import BC_DTDH from './Pages/BC/BCDTDH'
+import BC_DTTDV from './Pages/BC/BCDTTDV'
+import BC_DT from './Pages/BC/BCDT'
+import BC_DTN from './Pages/BC/BCDTN'
+import BC_SP from './Pages/BC/BCSP'
 function App() {
   return (
     <Router>
@@ -40,6 +44,10 @@ function App() {
         <Route path="/QLSP/DonVi/donvi" exact Component={donvi} />
         <Route path="/QLSP/DonVi/themDV" exact Component={themDV} />
         <Route path="/BC/BCDTDH" exact Component={BC_DTDH} />
+        <Route path="/BC/BCDTTDV" exact Component={BC_DTTDV} />
+        <Route path="/BC/BCDT" exact Component={BC_DT} />
+        <Route path="/BC/BCDTN" exact Component={BC_DTN} />
+        <Route path="/BC/BCSP" exact Component={BC_SP} />
       </Routes>
     </Router>
   );
