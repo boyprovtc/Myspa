@@ -32,7 +32,7 @@ function khoban() {
           </button>
           <Checkbox>Quản lý tất cả kho</Checkbox>
           <div className='right-1'>
-            <a href="#" className="btn-taophieunhap">
+            <a href="PhieuNhap" className="btn-taophieunhap">
               <AiIcons.AiOutlinePlus />Tạo phiếu nhập</a>
             <a href="#" className="btn-taophieuxuat">
               <AiIcons.AiOutlineMinus />Tạo phiếu xuất</a>
