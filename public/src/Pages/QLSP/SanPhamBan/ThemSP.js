@@ -140,7 +140,7 @@ function ThemSP() {
                 />
               </Form.Group>
 
-              <Form.Group style={{ marginLeft: 60 }} className="mb-3 col-lg-2">
+              <Form.Group style={{ marginLeft: 70, width: 200  }} className="mb-3 col-lg-2">
                 <Form.Label >Danh mục</Form.Label>
                 <Form.Control
                   className="border-dark rounded-pill"
@@ -152,11 +152,11 @@ function ThemSP() {
                 />
               </Form.Group>
 
-              <Form.Group className="mb-3 col-lg-1 ">
+              <Form.Group style={{ marginLeft: -40 }} className="mb-3 col-lg-1 ">
                 <a href='#' className='btn-themMoiDMSP'><AiIcons.AiOutlinePlus /></a>
               </Form.Group>
 
-              <Form.Group style={{ marginLeft: 60 }} className="mb-3 col-lg-3">
+              <Form.Group style={{ marginLeft: 80 }} className="mb-3 col-lg-3">
                 <Form.Label >Ưu tiên</Form.Label>
                 <Form.Control
                   className="border-dark rounded-pill"
@@ -267,7 +267,8 @@ function ThemSP() {
                 </InputGroup>
               </Form.Group>
             </Row>
-
+            <br/>
+            <br/>
             <Row >
               <p className='name' >KTV</p>
               <Form.Group style={{ marginTop: 25 }} className="mb-3 col-lg-3">
@@ -308,7 +309,8 @@ function ThemSP() {
                 </InputGroup>
               </Form.Group>
             </Row>
-
+            <br/>
+            <br/>
             <Row>
               <p className='name' >Lễ tân</p>
               <Form.Group style={{ marginTop: 25 }} className="mb-3 col-lg-3">
@@ -349,7 +351,8 @@ function ThemSP() {
                 </InputGroup>
               </Form.Group>
             </Row>
-
+            <br/>
+            <br/>
             <Row>
               <p className='name' >Marketing</p>
               <Form.Group style={{ marginTop: 25 }} className="mb-3 col-lg-3">
@@ -390,7 +393,8 @@ function ThemSP() {
                 </InputGroup>
               </Form.Group>
             </Row>
-
+            <br/>
+            <br/>
             <Row>
               <p className='name' >Tư vấn viên</p>
               <Form.Group style={{ marginTop: 25 }} className="mb-3 col-lg-3">
