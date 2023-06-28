@@ -1,0 +1,43 @@
+.phieuXuat{
+    width: 1920px;
+    height: 10000px;
+    background: #F0F2F5;
+    padding-top: 50px;
+    padding-left: 200px;
+}
+
+.contaiNerPX{
+    padding: 20px;
+    padding-top: 30px;
+    background: rgb(255, 255, 255);
+    width: 95%;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 30px;
+    box-shadow: 0px 5px 5px #999999;
+}
+
+.topPX{
+    display: flex;
+}
+
+.title-PX{
+    color: #9acc51;
+    margin-top: 0px;
+    font-weight: 700;
+}
+
+.btn-themCN{
+    background: #ABD373;
+    border-radius: 25px;
+    color: #fff;
+    padding: 0 15px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    margin-left: 80px;
+    justify-content: center;
+    margin: 0 65px;
+}

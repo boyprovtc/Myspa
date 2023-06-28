@@ -34,7 +34,7 @@ function khoban() {
           <div className='right-1'>
             <a href="PhieuNhap" className="btn-taophieunhap">
               <AiIcons.AiOutlinePlus />Tạo phiếu nhập</a>
-            <a href="#" className="btn-taophieuxuat">
+            <a href="PhieuXuat" className="btn-taophieuxuat">
               <AiIcons.AiOutlineMinus />Tạo phiếu xuất</a>
             <a href="#" className="btn-lichsunhapxuat">
               <AiIcons.AiOutlineUnorderedList />Lịch sử nhập / xuất</a>

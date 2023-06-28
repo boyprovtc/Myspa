@@ -22,6 +22,7 @@ import BC_DTN from './Pages/BC/BCDTN'
 import BC_SP from './Pages/BC/BCSP'
 import ThemSP from './Pages/QLSP/SanPhamBan/ThemSP';
 import PhieuNhap from './Pages/QLSP/KhoBan/PhieuNhap';
+import PhieuXuat from './Pages/QLSP/KhoBan/PhieuXuat';
 import ThemLichHen from './Pages/DH/ChinhSuaLH/ChinhSuaLH';
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
         <Route path="/QLSP/DanhMucSP/themDMSP" exact Component={themDMSP} />
         <Route path="/QLSP/KhoBan/khoban" exact Component={khoban} />
         <Route path="/QLSP/KhoBan/PhieuNhap" exact Component={PhieuNhap} />
+        <Route path="/QLSP/KhoBan/PhieuXuat" exact Component={PhieuXuat} />
         <Route path="/QLSP/NhanHieu/nhanhieu" exact Component={nhanhieu} />
         <Route
           path="/QLSP/NhanHieu/themNhanHieu"

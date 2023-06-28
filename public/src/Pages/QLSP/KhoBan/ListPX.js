@@ -26,7 +26,7 @@ const columns = [
         },
     },
     {
-        title: 'Ngày hết hạn',
+        title: 'Lô hàng',
         dataIndex: 'math',
         sorter: {
             compare: (a, b) => a.math - b.math,
@@ -50,7 +50,7 @@ const columns = [
         },
     },
     {
-        title: 'Giá nhập (Đơn giá)',
+        title: 'Giá bán lẻ (Đơn giá)',
         dataIndex: 'tongxuat',
         sorter: {
             compare: (a, b) => a.tongxuat - b.tongxuat,
@@ -119,6 +119,6 @@ const data = [
 ];
 
 
-const ListPN = () => <Table columns={columns} dataSource={data} />;
+const ListPX = () => <Table columns={columns} dataSource={data} />;
 
-export default ListPN;
+export default ListPX;
